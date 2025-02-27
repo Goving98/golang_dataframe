@@ -1,0 +1,5 @@
+cmd\main.exe
+/main.exe
+/cmd/main.exe
+*.exe
+main.exe

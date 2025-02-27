@@ -1,0 +1,45 @@
+{
+    "type": "table",
+    "table_1": [
+            {
+                "id": "d40bb083-0fc2-4e5c-8a11-ca4939e22b1a",
+                "vertices":{
+                    "xmin": 1168,
+                    "xmax": 1381,
+                    "ymin": 689,
+                    "ymax": 724
+                },
+                "page_no": 0,
+                "cells": [
+                    {
+                        "id": "3bedf90a-1e6c-4896-a28c-721dd7b753ad",
+                        "label": "s_no",
+                        "row": 1,
+                        "col": 1,
+                        "vertices":{
+                            "xmin": 1168,
+                            "xmax": 1381,
+                            "ymin": 689,
+                            "ymax": 724
+                        },
+                        "ocr_text": "1 ",
+                        "score": 0
+                    } , 
+                    {
+                        "id": "3bedf90a-1e6c-4896-a28c-721dd7b753ad",
+                        "label": "s_no",
+                        "row": 3,
+                        "col": 2,
+                        "vertices":{
+                            "xmin": 1168,
+                            "xmax": 1381,
+                            "ymin": 689,
+                            "ymax": 724
+                        },
+                        "ocr_text": "60.1",
+                        "score": 0
+                    }
+                ]
+            }
+        ]
+}

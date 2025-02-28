@@ -103,7 +103,7 @@ func main() {
 
 	// Print the DataFrame
 	fmt.Println(df)
-    sortedDf := df.Arrange(dataframe.Sort("ROW_ID"))
-    fmt.Println("\n📌 DataFrame after sorting by ROW_ID:")
-    fmt.Println(sortedDf)
+	sortedDf := df.Arrange(dataframe.Sort("ROW_ID"))
+	fmt.Println("\n📌 DataFrame after sorting by ROW_ID:")
+	fmt.Println(sortedDf)
 }

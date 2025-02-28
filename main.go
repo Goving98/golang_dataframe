@@ -1,109 +1,129 @@
 package main
 
 import (
-	"encoding/json"
-	"fmt"
-	"log"
+    "encoding/json"
+    "fmt"
+    "io/ioutil"
+    "log"
+    // "strconv"
 
-	"github.com/go-gota/gota/dataframe"
-	"github.com/go-gota/gota/series"
+    "github.com/go-gota/gota/dataframe"
+    "github.com/go-gota/gota/series"
 )
 
-// Structs for parsing JSON
 type TableData struct {
-	Table []Table `json:"table_1"`
+    Type     string            `json:"type"`
+    Metadata struct {
+        ID       string   `json:"id"`
+        PageNo   int      `json:"page_no"`
+        Vertices Vertices `json:"vertices"`
+    } `json:"metadata"`
+    Cells   []Cell            `json:"cells"`
+    Layout  Layout            `json:"layout"`
+    Headers map[string]string `json:"headers"`
 }
 
-type Table struct {
-	Cells []Cell `json:"cells"`
+type Vertices struct {
+    XMin int `json:"xmin"`
+    XMax int `json:"xmax"`
+    YMin int `json:"ymin"`
+    YMax int `json:"ymax"`
 }
 
 type Cell struct {
-	Row     int    `json:"row"`
-	Col     int    `json:"col"`
-	OCRText string `json:"ocr_text"`
+    ID         string   `json:"id"`
+    RowID      string   `json:"row_id"`
+    ColID      string   `json:"col_id"`
+    Vertices   Vertices `json:"vertices"`
+    OcrText    string   `json:"ocr_text"`
+    IsHeader   bool     `json:"is_header"`
+    Confidence float64  `json:"confidence"`
+}
+
+type Layout struct {
+    RowOrder    []string `json:"row_order"`
+    ColumnOrder []string `json:"column_order"`
 }
 
 func main() {
-	// Sample JSON input
-	jsonData := `
-    {
-    "type": "table",
-    "table_1": [
-            {
-                "id": "d40bb083-0fc2-4e5c-8a11-ca4939e22b1a",
-                "vertices":{
-                    "xmin": 1168,
-                    "xmax": 1381,
-                    "ymin": 689,
-                    "ymax": 724
-                },
-                "page_no": 0,
-                "cells": [
-                    {
-                        "id": "3bedf90a-1e6c-4896-a28c-721dd7b753ad",
-                        "label": "s_no",
-                        "row": 5,
-                        "col": 1,
-                        "vertices":{
-                            "xmin": 1168,
-                            "xmax": 1381,
-                            "ymin": 689,
-                            "ymax": 724
-                        },
-                        "ocr_text": "1 ",
-                        "score": 0
-                    } , 
-                    {
-                        "id": "3bedf90a-1e6c-4896-a28c-721dd7b753ad",
-                        "label": "s_no",
-                        "row": 3,
-                        "col": 2,
-                        "vertices":{
-                            "xmin": 1168,
-                            "xmax": 1381,
-                            "ymin": 689,
-                            "ymax": 724
-                        },
-                        "ocr_text": "60.1",
-                        "score": 0
+    // Load data from file
+    jsonBytes, err := ioutil.ReadFile("getData.json")
+    if err != nil {
+        log.Fatalf("Error reading JSON file: %v", err)
+    }
+
+    // Parse the JSON data
+    var tableData TableData
+    if err := json.Unmarshal(jsonBytes, &tableData); err != nil {
+        log.Fatalf("Error decoding JSON: %v", err)
+    }
+
+    // Create DataFrame from JSON data
+    headers := make([]string, 0, len(tableData.Headers))
+    for _, colID := range tableData.Layout.ColumnOrder {
+        headers = append(headers, tableData.Headers[colID])
+    }
+
+    records := make([][]string, 0)
+    for _, rowID := range tableData.Layout.RowOrder {
+        if rowID != "row_1" {
+            row := make([]string, 0, len(tableData.Layout.ColumnOrder))
+            for _, colID := range tableData.Layout.ColumnOrder {
+                for _, cell := range tableData.Cells {
+                    if cell.RowID == rowID && cell.ColID == colID && !cell.IsHeader {
+                        row = append(row, cell.OcrText)
                     }
-                ]
+                }
             }
-        ]
-    }`
+            records = append(records, row)
+        }
+    }
 
-	// Parse JSON
-	var tableData TableData
-	err := json.Unmarshal([]byte(jsonData), &tableData)
-	if err != nil {
-		log.Fatal("Error parsing JSON:", err)
-	}
+    df := dataframe.LoadRecords(records, dataframe.HasHeader(false))
+    df.SetNames(headers...)
 
-	// Lists to store extracted data
-	var ocrTexts []string
-	var rowIds []int
-	var colIds []int
+    // Convert Price column to float
+    priceVals := df.Col("Price").Float()
+    df = df.Mutate(series.New(priceVals, series.Float, "Price"))
 
-	// Extract values from JSON
-	for _, table := range tableData.Table {
-		for _, cell := range table.Cells {
-			ocrTexts = append(ocrTexts, cell.OCRText)
-			rowIds = append(rowIds, cell.Row)
-			colIds = append(colIds, cell.Col)
-		}
-	}
+    // Display original data
+    fmt.Println("DataFrame Before Operations:")
+    fmt.Println(df)
 
-	// Create Gota DataFrame
-	df := dataframe.New(
-		series.New(ocrTexts, series.String, "OCR_TEXT"),
-		series.New(rowIds, series.Int, "ROW_ID"),
-		series.New(colIds, series.Int, "COL_ID"),
-	)
+    // Sort by Price (descending)
+    sortedDF := df.Arrange(dataframe.RevSort("Price"))
+    fmt.Println("\nSorted by Price (Descending):")
+    fmt.Println(sortedDF)
 
-	// Print the DataFrame
-	fmt.Println(df)
-	sortedDf := df.Arrange(dataframe.Sort("ROW_ID"))
-	fmt.Println("\n📌 DataFrame after sorting by ROW_ID:")
-	fmt.Println(sortedDf)
+    // Filter products with price > 900
+    filter := dataframe.F{Colname: "Price", Comparator: series.Greater, Comparando: 900.0}
+    filteredDF := df.Filter(filter)
+    fmt.Println("\nFiltered (Price > 900):")
+    fmt.Println(filteredDF)
+
+	searchDF := df.Filter(dataframe.F{Colname: "Product", Comparator: series.Eq, Comparando: "ProductA"})
+    fmt.Println("\nSearch for ProductA:")
+    fmt.Println(searchDF)
+
+    // Insert a new row
+    newRow := dataframe.New(
+        series.New([]string{"NewProduct"}, series.String, "Product"),
+        series.New([]float64{1200.0}, series.Float, "Price"),
+    )
+    df = df.RBind(newRow)
+    fmt.Println("\nAfter Inserting New Row:")
+    fmt.Println(df)
+
+    // Split the DataFrame into two parts
+    // df1, df2 := df.Split(2)
+    // fmt.Println("\nFirst Part of Split DataFrame:")
+    // fmt.Println(df1)
+    // fmt.Println("\nSecond Part of Split DataFrame:")
+    // fmt.Println(df2)
+
+    // Join two DataFrames
+    // joinedDF := df1.InnerJoin(df2, "Product")
+    // fmt.Println("\nJoined DataFrame:")
+    // fmt.Println(joinedDF)
+	
 }

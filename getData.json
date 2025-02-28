@@ -1,45 +1,107 @@
 {
     "type": "table",
-    "table_1": [
-            {
-                "id": "d40bb083-0fc2-4e5c-8a11-ca4939e22b1a",
-                "vertices":{
-                    "xmin": 1168,
-                    "xmax": 1381,
-                    "ymin": 689,
-                    "ymax": 724
-                },
-                "page_no": 0,
-                "cells": [
-                    {
-                        "id": "3bedf90a-1e6c-4896-a28c-721dd7b753ad",
-                        "label": "s_no",
-                        "row": 1,
-                        "col": 1,
-                        "vertices":{
-                            "xmin": 1168,
-                            "xmax": 1381,
-                            "ymin": 689,
-                            "ymax": 724
-                        },
-                        "ocr_text": "1 ",
-                        "score": 0
-                    } , 
-                    {
-                        "id": "3bedf90a-1e6c-4896-a28c-721dd7b753ad",
-                        "label": "s_no",
-                        "row": 3,
-                        "col": 2,
-                        "vertices":{
-                            "xmin": 1168,
-                            "xmax": 1381,
-                            "ymin": 689,
-                            "ymax": 724
-                        },
-                        "ocr_text": "60.1",
-                        "score": 0
-                    }
-                ]
-            }
-        ]
+    "metadata": {
+        "id": "table_1",
+        "page_no": 0,
+        "vertices": {
+            "xmin": 1150,
+            "xmax": 1600,
+            "ymin": 680,
+            "ymax": 800
+        }
+    },
+    "cells": [
+        {
+            "id": "cell_1_1",
+            "row_id": "row_1",
+            "col_id": "col_1",
+            "vertices": {
+                "xmin": 1168,
+                "xmax": 1381,
+                "ymin": 689,
+                "ymax": 724
+            },
+            "ocr_text": "Product",
+            "is_header": true,
+            "confidence": 0.95
+        },
+        {
+            "id": "cell_1_2",
+            "row_id": "row_1",
+            "col_id": "col_2",
+            "vertices": {
+                "xmin": 1382,
+                "xmax": 1595,
+                "ymin": 689,
+                "ymax": 724
+            },
+            "ocr_text": "Price",
+            "is_header": true,
+            "confidence": 0.98
+        },
+        {
+            "id": "cell_2_1",
+            "row_id": "row_2",
+            "col_id": "col_1",
+            "vertices": {
+                "xmin": 1168,
+                "xmax": 1381,
+                "ymin": 725,
+                "ymax": 760
+            },
+            "ocr_text": "Laptop",
+            "is_header": false,
+            "confidence": 0.92
+        },
+        {
+            "id": "cell_2_2",
+            "row_id": "row_2",
+            "col_id": "col_2",
+            "vertices": {
+                "xmin": 1382,
+                "xmax": 1595,
+                "ymin": 725,
+                "ymax": 760
+            },
+            "ocr_text": "1200.00",
+            "is_header": false,
+            "confidence": 0.94
+        },
+        {
+            "id": "cell_3_1",
+            "row_id": "row_3",
+            "col_id": "col_1",
+            "vertices": {
+                "xmin": 1168,
+                "xmax": 1381,
+                "ymin": 761,
+                "ymax": 796
+            },
+            "ocr_text": "Phone",
+            "is_header": false,
+            "confidence": 0.93
+        },
+        {
+            "id": "cell_3_2",
+            "row_id": "row_3",
+            "col_id": "col_2",
+            "vertices": {
+                "xmin": 1382,
+                "xmax": 1595,
+                "ymin": 761,
+                "ymax": 796
+            },
+            "ocr_text": "800.00",
+            "is_header": false,
+            "confidence": 0.96
+        }
+    ],
+    "layout": {
+        "row_order": ["row_1", "row_2", "row_3"],
+        "column_order": ["col_1", "col_2"]
+    },
+    "headers": {
+        "col_1": "Product",
+        "col_2": "Price"
+    }
 }

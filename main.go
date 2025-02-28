@@ -5,7 +5,7 @@ import (
     "fmt"
     "io/ioutil"
     "log"
-    // "strconv"
+    "strconv"
 	"time"
     "github.com/go-gota/gota/dataframe"
     "github.com/go-gota/gota/series"
@@ -75,11 +75,15 @@ func main() {
                     }
                 }
             }
+            // colID := 0
+			i:=0
+            row = append(row, strconv.Itoa(i))
             records = append(records, row)
         }
     }
 
     df := dataframe.LoadRecords(records, dataframe.HasHeader(false))
+	headers = append(headers, "ColumnOrder")
     df.SetNames(headers...)
 
     // Convert Price column to float
@@ -125,10 +129,12 @@ func main() {
     newRow := dataframe.New(
         series.New([]string{"NewProduct"}, series.String, "Product"),
         series.New([]float64{1200.0}, series.Float, "Price"),
+		series.New([]string{"col_" + strconv.Itoa(len(tableData.Layout.ColumnOrder)+1)}, series.String, "ColumnOrder"),
     )
 	start = time.Now()
     df = df.RBind(newRow)
 	elapsed = time.Since(start)
+	tableData.Layout.ColumnOrder = append(tableData.Layout.ColumnOrder, "col_"+strconv.Itoa(len(tableData.Layout.ColumnOrder)+1))
 	fmt.Printf("Inserting time: %s\n", elapsed)
     fmt.Println("\nAfter Inserting New Row:")
     fmt.Println(df)
@@ -150,7 +156,8 @@ func main() {
 
     // Join two DataFrames
 	start =time.Now()
-    joinedDF := df1.InnerJoin(df2, "Product")
+    // strings := 0
+    joinedDF := df1.InnerJoin(df2,"Product")
 	elapsed = time.Since(start)
 	fmt.Printf("Joining time: %s\n", elapsed)
     fmt.Println("\nJoined DataFrame:")

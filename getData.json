@@ -1,107 +1,107 @@
 {
-    "type": "table",
-    "metadata": {
-        "id": "table_1",
-        "page_no": 0,
-        "vertices": {
-            "xmin": 1150,
-            "xmax": 1600,
-            "ymin": 680,
-            "ymax": 800
-        }
-    },
-    "cells": [
-        {
-            "id": "cell_1_1",
-            "row_id": "row_1",
-            "col_id": "col_1",
-            "vertices": {
-                "xmin": 1168,
-                "xmax": 1381,
-                "ymin": 689,
-                "ymax": 724
-            },
-            "ocr_text": "Product",
-            "is_header": true,
-            "confidence": 0.95
-        },
-        {
-            "id": "cell_1_2",
-            "row_id": "row_1",
-            "col_id": "col_2",
-            "vertices": {
-                "xmin": 1382,
-                "xmax": 1595,
-                "ymin": 689,
-                "ymax": 724
-            },
-            "ocr_text": "Price",
-            "is_header": true,
-            "confidence": 0.98
-        },
-        {
-            "id": "cell_2_1",
-            "row_id": "row_2",
-            "col_id": "col_1",
-            "vertices": {
-                "xmin": 1168,
-                "xmax": 1381,
-                "ymin": 725,
-                "ymax": 760
-            },
-            "ocr_text": "Laptop",
-            "is_header": false,
-            "confidence": 0.92
-        },
-        {
-            "id": "cell_2_2",
-            "row_id": "row_2",
-            "col_id": "col_2",
-            "vertices": {
-                "xmin": 1382,
-                "xmax": 1595,
-                "ymin": 725,
-                "ymax": 760
-            },
-            "ocr_text": "1200.00",
-            "is_header": false,
-            "confidence": 0.94
-        },
-        {
-            "id": "cell_3_1",
-            "row_id": "row_3",
-            "col_id": "col_1",
-            "vertices": {
-                "xmin": 1168,
-                "xmax": 1381,
-                "ymin": 761,
-                "ymax": 796
-            },
-            "ocr_text": "Phone",
-            "is_header": false,
-            "confidence": 0.93
-        },
-        {
-            "id": "cell_3_2",
-            "row_id": "row_3",
-            "col_id": "col_2",
-            "vertices": {
-                "xmin": 1382,
-                "xmax": 1595,
-                "ymin": 761,
-                "ymax": 796
-            },
-            "ocr_text": "800.00",
-            "is_header": false,
-            "confidence": 0.96
-        }
-    ],
-    "layout": {
-        "row_order": ["row_1", "row_2", "row_3"],
-        "column_order": ["col_1", "col_2"]
-    },
-    "headers": {
-        "col_1": "Product",
-        "col_2": "Price"
-    }
-}
+		"type": "table",
+		"metadata": {
+			"id": "table_1",
+			"page_no": 0,
+			"vertices": {
+				"xmin": 1150,
+				"xmax": 1600,
+				"ymin": 680,
+				"ymax": 800
+			}
+		},
+		"cells": [
+			{
+				"id": "cell_1_1",
+				"row_id": "row_1",
+				"col_id": "col_1",
+				"vertices": {
+					"xmin": 1168,
+					"xmax": 1381,
+					"ymin": 689,
+					"ymax": 724
+				},
+				"ocr_text": "Product",
+				"is_header": true,
+				"confidence": 0.95
+			},
+			{
+				"id": "cell_1_2",
+				"row_id": "row_1",
+				"col_id": "col_2",
+				"vertices": {
+					"xmin": 1382,
+					"xmax": 1595,
+					"ymin": 689,
+					"ymax": 724
+				},
+				"ocr_text": "Price",
+				"is_header": true,
+				"confidence": 0.98
+			},
+			{
+				"id": "cell_2_1",
+				"row_id": "row_2",
+				"col_id": "col_1",
+				"vertices": {
+					"xmin": 1168,
+					"xmax": 1381,
+					"ymin": 725,
+					"ymax": 760
+				},
+				"ocr_text": "Laptop",
+				"is_header": false,
+				"confidence": 0.92
+			},
+			{
+				"id": "cell_2_2",
+				"row_id": "row_2",
+				"col_id": "col_2",
+				"vertices": {
+					"xmin": 1382,
+					"xmax": 1595,
+					"ymin": 725,
+					"ymax": 760
+				},
+				"ocr_text": "1200.00",
+				"is_header": false,
+				"confidence": 0.94
+			},
+			{
+				"id": "cell_3_1",
+				"row_id": "row_3",
+				"col_id": "col_1",
+				"vertices": {
+					"xmin": 1168,
+					"xmax": 1381,
+					"ymin": 761,
+					"ymax": 796
+				},
+				"ocr_text": "Phone",
+				"is_header": false,
+				"confidence": 0.93
+			},
+			{
+				"id": "cell_3_2",
+				"row_id": "row_3",
+				"col_id": "col_2",
+				"vertices": {
+					"xmin": 1382,
+					"xmax": 1595,
+					"ymin": 761,
+					"ymax": 796
+				},
+				"ocr_text": "800.00",
+				"is_header": false,
+				"confidence": 0.96
+			}
+		],
+		"layout": {
+			"row_order": ["row_1", "row_2", "row_3"],
+			"column_order": ["col_1", "col_2"]
+		},
+		"headers": {
+			"col_1": "Product",
+			"col_2": "Price"
+		}
+	}

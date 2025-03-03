@@ -32,10 +32,10 @@ type Vertices struct {
 
 type Cell struct {
     ID         string   `json:"id"`
-    RowID      string   `json:"row_id"`
-    ColID      string   `json:"col_id"`
+    RowID      string   `json:"row"`
+    ColID      string   `json:"col"`
     Vertices   Vertices `json:"vertices"`
-    OcrText    string   `json:"ocr_text"`
+    OcrText    string   `json:"text"`
     IsHeader   bool     `json:"is_header"`
     Confidence float64  `json:"confidence"`
 }

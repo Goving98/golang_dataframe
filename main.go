@@ -83,15 +83,19 @@ func main() {
     }
 
     df := dataframe.LoadRecords(records, dataframe.HasHeader(false))
-	headers = append(headers, "ColumnOrder")
+    headers = append(headers, "ColumnOrder")
     df.SetNames(headers...)
 
-    // Create DataFrame using series
-    df := dataframe.New(seriesList...)
+    // Create series list from existing DataFrame columns
+    seriesList := make([]series.Series, len(headers))
+    for i, header := range headers {
+        seriesList[i] = df.Col(header)
+    }
+    df = dataframe.New(seriesList...)
 
     // Print arrays and DataFrame
-    fmt.Println("Row Order:", rowOrder)
-    fmt.Println("Column Order:", columnOrder)
+    // fmt.Println("Row Order:", rowOrder)
+    // fmt.Println("Column Order:", columnOrder)
     fmt.Println("\nDataFrame:")
     fmt.Println(df)
 

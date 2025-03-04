@@ -5,12 +5,13 @@ import (
     "fmt"
     "io/ioutil"
     "log"
-    // "strconv"
+    "strconv"
 	"time"
     "github.com/go-gota/gota/dataframe"
     "github.com/go-gota/gota/series"
 )
 
+// Updated struct definitions for new JSON format
 type TableData struct {
     Type     string            `json:"type"`
     Metadata struct {
@@ -24,18 +25,18 @@ type TableData struct {
 }
 
 type Vertices struct {
-    XMin float64 `json:"xmin"`
-    XMax float64 `json:"xmax"`
-    YMin float64 `json:"ymin"`
-    YMax float64 `json:"ymax"`
+    XMin int `json:"xmin"`
+    XMax int `json:"xmax"`
+    YMin int `json:"ymin"`
+    YMax int `json:"ymax"`
 }
 
 type Cell struct {
     ID         string   `json:"id"`
-    RowID      string   `json:"row_id"`
-    ColID      string   `json:"col_id"`
+    RowID      string   `json:"row"`
+    ColID      string   `json:"col"`
     Vertices   Vertices `json:"vertices"`
-    OcrText    string   `json:"ocr_text"`
+    OcrText    string   `json:"text"`
     IsHeader   bool     `json:"is_header"`
     Confidence float64  `json:"confidence"`
 }
@@ -46,13 +47,12 @@ type Layout struct {
 }
 
 func main() {
-    // Load data from file
+    // Load and parse JSON
     jsonBytes, err := ioutil.ReadFile("getData.json")
     if err != nil {
         log.Fatalf("Error reading JSON file: %v", err)
     }
 
-    // Parse the JSON data
     var tableData TableData
     if err := json.Unmarshal(jsonBytes, &tableData); err != nil {
         log.Fatalf("Error decoding JSON: %v", err)
@@ -75,21 +75,24 @@ func main() {
                     }
                 }
             }
-			// i :=0
-			// row=append(row, strconv.Itoa(i))
+            // colID := 0
+			i:=0
+            row = append(row, strconv.Itoa(i))
             records = append(records, row)
         }
     }
 
     df := dataframe.LoadRecords(records, dataframe.HasHeader(false))
+	headers = append(headers, "ColumnOrder")
     df.SetNames(headers...)
 
-    // Convert Price column to float
-    priceVals := df.Col("Price").Float()
-    df = df.Mutate(series.New(priceVals, series.Float, "Price"))
+    // Create DataFrame using series
+    df := dataframe.New(seriesList...)
 
-    // Display original data
-    fmt.Println("DataFrame Before Operations:")
+    // Print arrays and DataFrame
+    fmt.Println("Row Order:", rowOrder)
+    fmt.Println("Column Order:", columnOrder)
+    fmt.Println("\nDataFrame:")
     fmt.Println(df)
 
     // Sort by Price (descending)
@@ -127,10 +130,12 @@ func main() {
     newRow := dataframe.New(
         series.New([]string{"NewProduct"}, series.String, "Product"),
         series.New([]float64{1200.0}, series.Float, "Price"),
+		series.New([]string{"col_" + strconv.Itoa(len(tableData.Layout.ColumnOrder)+1)}, series.String, "ColumnOrder"),
     )
 	start = time.Now()
     df = df.RBind(newRow)
 	elapsed = time.Since(start)
+	tableData.Layout.ColumnOrder = append(tableData.Layout.ColumnOrder, "col_"+strconv.Itoa(len(tableData.Layout.ColumnOrder)+1))
 	fmt.Printf("Inserting time: %s\n", elapsed)
     fmt.Println("\nAfter Inserting New Row:")
     fmt.Println(df)
@@ -152,10 +157,11 @@ func main() {
 
     // Join two DataFrames
 	start =time.Now()
-    joinedDF := df1.InnerJoin(df2, "Product")
+    // strings := 0
+    joinedDF := df1.InnerJoin(df2,"Product")
 	elapsed = time.Since(start)
 	fmt.Printf("Joining time: %s\n", elapsed)
     fmt.Println("\nJoined DataFrame:")
     fmt.Println(joinedDF)
-
+	
 }

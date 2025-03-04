@@ -6,7 +6,7 @@ import (
     "io/ioutil"
     "log"
     "strconv"
-	"time"
+	// "time"
     "github.com/go-gota/gota/dataframe"
     "github.com/go-gota/gota/series"
 )
@@ -93,40 +93,27 @@ func main() {
     }
     df = dataframe.New(seriesList...)
 
-    // Print arrays and DataFrame
-    // fmt.Println("Row Order:", rowOrder)
-    // fmt.Println("Column Order:", columnOrder)
     fmt.Println("\nDataFrame:")
     fmt.Println(df)
 
     // Sort by Price (descending)
-	start := time.Now()
     sortedDF := df.Arrange(dataframe.RevSort("Price"))
-	elapsed := time.Since(start)
-    fmt.Println("\nSorted by Price (Descending):")
-	fmt.Printf("Sorting time: %s\n", elapsed)
-    fmt.Println(sortedDF)
 
-	start = time.Now()
+    fmt.Println("\nSorted by Price (Descending):")
+    fmt.Println(sortedDF)
     sortedDF2 := df.Arrange(dataframe.Sort("Price"))
-	elapsed = time.Since(start)
     fmt.Println("\nSorted by Price (Ascending):")
-	fmt.Printf("Sorting time: %s\n", elapsed)
+	
     fmt.Println(sortedDF2)
 
     // Filter products with price > 900
     filter := dataframe.F{Colname: "Price", Comparator: series.Greater, Comparando: 900.0}
-	start = time.Now()
+	
     filteredDF := df.Filter(filter)
     fmt.Println("\nFiltered (Price > 900):")
-	elapsed = time.Since(start)
-	fmt.Printf("Filtering time: %s\n", elapsed)
     fmt.Println(filteredDF)
 
-	start = time.Now()
 	searchDF := df.Filter(dataframe.F{Colname: "Product", Comparator: series.Eq, Comparando: "Laptop"})
-	elapsed = time.Since(start)
-	fmt.Printf("Search time: %s\n", elapsed)
     fmt.Println("\nSearch for ProductA:")
     fmt.Println(searchDF)
 
@@ -136,36 +123,21 @@ func main() {
         series.New([]float64{1200.0}, series.Float, "Price"),
 		series.New([]string{"col_" + strconv.Itoa(len(tableData.Layout.ColumnOrder)+1)}, series.String, "ColumnOrder"),
     )
-	start = time.Now()
     df = df.RBind(newRow)
-	elapsed = time.Since(start)
 	tableData.Layout.ColumnOrder = append(tableData.Layout.ColumnOrder, "col_"+strconv.Itoa(len(tableData.Layout.ColumnOrder)+1))
-	fmt.Printf("Inserting time: %s\n", elapsed)
     fmt.Println("\nAfter Inserting New Row:")
     fmt.Println(df)
-
     // Split the DataFrame into two parts
     nRows := df.Nrow()
     middleIndex := nRows / 2
-    
     // Create two DataFrames by filtering rows
-	start = time.Now()
     df1 := df.Subset([]int{0, middleIndex - 1})
     df2 := df.Subset([]int{middleIndex, nRows - 1})
-	elapsed = time.Since(start)
-	fmt.Printf("Splitting time: %s\n", elapsed)
     fmt.Println("\nFirst Part of Split DataFrame:")
     fmt.Println(df1)
     fmt.Println("\nSecond Part of Split DataFrame:")
     fmt.Println(df2)
-
-    // Join two DataFrames
-	start =time.Now()
-    // strings := 0
     joinedDF := df1.InnerJoin(df2,"Product")
-	elapsed = time.Since(start)
-	fmt.Printf("Joining time: %s\n", elapsed)
     fmt.Println("\nJoined DataFrame:")
     fmt.Println(joinedDF)
-	
 }

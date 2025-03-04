@@ -5,7 +5,7 @@ import (
     "fmt"
     "io/ioutil"
     "log"
-    "strconv"
+    // "strconv"
 	"time"
     "github.com/go-gota/gota/dataframe"
     "github.com/go-gota/gota/series"
@@ -24,18 +24,18 @@ type TableData struct {
 }
 
 type Vertices struct {
-    XMin int `json:"xmin"`
-    XMax int `json:"xmax"`
-    YMin int `json:"ymin"`
-    YMax int `json:"ymax"`
+    XMin float64 `json:"xmin"`
+    XMax float64 `json:"xmax"`
+    YMin float64 `json:"ymin"`
+    YMax float64 `json:"ymax"`
 }
 
 type Cell struct {
     ID         string   `json:"id"`
-    RowID      string   `json:"row"`
-    ColID      string   `json:"col"`
+    RowID      string   `json:"row_id"`
+    ColID      string   `json:"col_id"`
     Vertices   Vertices `json:"vertices"`
-    OcrText    string   `json:"text"`
+    OcrText    string   `json:"ocr_text"`
     IsHeader   bool     `json:"is_header"`
     Confidence float64  `json:"confidence"`
 }
@@ -75,15 +75,13 @@ func main() {
                     }
                 }
             }
-            // colID := 0
-			i:=0
-            row = append(row, strconv.Itoa(i))
+			// i :=0
+			// row=append(row, strconv.Itoa(i))
             records = append(records, row)
         }
     }
 
     df := dataframe.LoadRecords(records, dataframe.HasHeader(false))
-	headers = append(headers, "ColumnOrder")
     df.SetNames(headers...)
 
     // Convert Price column to float
@@ -129,12 +127,10 @@ func main() {
     newRow := dataframe.New(
         series.New([]string{"NewProduct"}, series.String, "Product"),
         series.New([]float64{1200.0}, series.Float, "Price"),
-		series.New([]string{"col_" + strconv.Itoa(len(tableData.Layout.ColumnOrder)+1)}, series.String, "ColumnOrder"),
     )
 	start = time.Now()
     df = df.RBind(newRow)
 	elapsed = time.Since(start)
-	tableData.Layout.ColumnOrder = append(tableData.Layout.ColumnOrder, "col_"+strconv.Itoa(len(tableData.Layout.ColumnOrder)+1))
 	fmt.Printf("Inserting time: %s\n", elapsed)
     fmt.Println("\nAfter Inserting New Row:")
     fmt.Println(df)
@@ -156,11 +152,10 @@ func main() {
 
     // Join two DataFrames
 	start =time.Now()
-    // strings := 0
-    joinedDF := df1.InnerJoin(df2,"Product")
+    joinedDF := df1.InnerJoin(df2, "Product")
 	elapsed = time.Since(start)
 	fmt.Printf("Joining time: %s\n", elapsed)
     fmt.Println("\nJoined DataFrame:")
     fmt.Println(joinedDF)
-	
+
 }

@@ -1,3425 +1,464 @@
 {
-  "type": "table",
-  "metadata": {
-      "id": "table_1",
-      "page_no": 0,
-      "vertices": {
-          "xmin": 0,
-          "xmax": 0,
-          "ymin": 0,
-          "ymax": 0
-      }
-  },
-  "cells": [
-      {
-          "id": "cell_1_1",
-          "row_id": "row_1",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 247.7963638305664,
-              "xmax": 449.4151294231415,
-              "ymin": 1191.6268925368786,
-              "ymax": 1219.7115525603294
-          },
-          "ocr_text": "897850D120",
-          "is_header": false,
-          "confidence": 98.84687042236328
-      },
-      {
-          "id": "cell_1_2",
-          "row_id": "row_1",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 547.8696918487549,
-              "xmax": 988.6618065834045,
-              "ymin": 1191.6479928791523,
-              "ymax": 1223.7797403335571
-          },
-          "ocr_text": "TRANSMITTER, TRANSPO",
-          "is_header": false,
-          "confidence": 89.2432632446289
-      },
-      {
-          "id": "cell_1_3",
-          "row_id": "row_1",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1268.3235502243042,
-              "xmax": 1424.385633468628,
-              "ymin": 1191.893884986639,
-              "ymax": 1219.5309461653233
-          },
-          "ocr_text": "83012000",
-          "is_header": false,
-          "confidence": 98.95209503173828
-      },
-      {
-          "id": "cell_1_4",
-          "row_id": "row_1",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1547.5869941711426,
-              "xmax": 1560.3058290481567,
-              "ymin": 1192.1666225790977,
-              "ymax": 1218.857093155384
-          },
-          "ocr_text": "1",
-          "is_header": false,
-          "confidence": 98.59591674804688
-      },
-      {
-          "id": "cell_1_5",
-          "row_id": "row_1",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1709.1243124008179,
-              "xmax": 1834.027075767517,
-              "ymin": 1191.5573240816593,
-              "ymax": 1219.5537178218365
-          },
-          "ocr_text": "1271.00",
-          "is_header": false,
-          "confidence": 98.96446990966797
-      },
-      {
-          "id": "cell_1_6",
-          "row_id": "row_1",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1889.8162317276,
-              "xmax": 2014.9673318862915,
-              "ymin": 1191.0964591801167,
-              "ymax": 1219.6107514202595
-          },
-          "ocr_text": "1077.12",
-          "is_header": false,
-          "confidence": 98.93396759033203
-      },
-      {
-          "id": "cell_1_7",
-          "row_id": "row_1",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2049.6058797836304,
-              "xmax": 2134.4536924362183,
-              "ymin": 1192.1034260094166,
-              "ymax": 1219.290276914835
-          },
-          "ocr_text": "16.00",
-          "is_header": false,
-          "confidence": 98.98484802246094
-      },
-      {
-          "id": "cell_1_7",
-          "row_id": "row_1",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "172.34",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_1_8",
-          "row_id": "row_1",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "904.78",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_2_1",
-          "row_id": "row_2",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 246.38306140899658,
-              "xmax": 444.24831986427307,
-              "ymin": 1253.7086956202984,
-              "ymax": 1282.9697519540787
-          },
-          "ocr_text": "9046709112",
-          "is_header": false,
-          "confidence": 98.93905639648438
-      },
-      {
-          "id": "cell_2_2",
-          "row_id": "row_2",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 548.0844366550446,
-              "xmax": 625.1000690460205,
-              "ymin": 1253.9526030421257,
-              "ymax": 1282.3623336851597
-          },
-          "ocr_text": "CLIP",
-          "is_header": false,
-          "confidence": 98.90001678466797
-      },
-      {
-          "id": "cell_2_3",
-          "row_id": "row_2",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1267.2431373596191,
-              "xmax": 1424.4499349594116,
-              "ymin": 1253.9050750434399,
-              "ymax": 1283.2130326330662
-          },
-          "ocr_text": "39269099",
-          "is_header": false,
-          "confidence": 98.92760467529297
-      },
-      {
-          "id": "cell_2_4",
-          "row_id": "row_2",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1547.6280879974365,
-              "xmax": 1560.3294801712036,
-              "ymin": 1254.5608569681644,
-              "ymax": 1281.6846157610416
-          },
-          "ocr_text": "1",
-          "is_header": false,
-          "confidence": 98.70685577392578
-      },
-      {
-          "id": "cell_2_5",
-          "row_id": "row_2",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1727.8585147857666,
-              "xmax": 1834.6890115737915,
-              "ymin": 1253.9542743563652,
-              "ymax": 1282.5837828218937
-          },
-          "ocr_text": "112.50",
-          "is_header": false,
-          "confidence": 98.9625015258789
-      },
-      {
-          "id": "cell_2_6",
-          "row_id": "row_2",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1926.8609857559204,
-              "xmax": 2013.9631938934326,
-              "ymin": 1253.8833479583263,
-              "ymax": 1282.6885533332825
-          },
-          "ocr_text": "95.34",
-          "is_header": false,
-          "confidence": 98.95684814453125
-      },
-      {
-          "id": "cell_2_7",
-          "row_id": "row_2",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2049.1307878494263,
-              "xmax": 2130.920066833496,
-              "ymin": 1254.0526729822159,
-              "ymax": 1282.8437766432762
-          },
-          "ocr_text": "16.01",
-          "is_header": false,
-          "confidence": 98.97212219238281
-      },
-      {
-          "id": "cell_2_7",
-          "row_id": "row_2",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "15.26",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_2_8",
-          "row_id": "row_2",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "80.08",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_3_1",
-          "row_id": "row_3",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 246.75554811954498,
-              "xmax": 463.21204900741577,
-              "ymin": 1316.1284175515175,
-              "ymax": 1344.3602576851845
-          },
-          "ocr_text": "90118WC630",
-          "is_header": false,
-          "confidence": 98.66226196289062
-      },
-      {
-          "id": "cell_3_2",
-          "row_id": "row_3",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 546.6853988170624,
-              "xmax": 671.141414642334,
-              "ymin": 1315.992832183838,
-              "ymax": 1344.6075077354908
-          },
-          "ocr_text": "V-BELT",
-          "is_header": false,
-          "confidence": 98.75568389892578
-      },
-      {
-          "id": "cell_3_3",
-          "row_id": "row_3",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1266.3810539245605,
-              "xmax": 1424.3641996383667,
-              "ymin": 1316.5976390242577,
-              "ymax": 1344.2035719752312
-          },
-          "ocr_text": "40103590",
-          "is_header": false,
-          "confidence": 98.97734069824219
-      },
-      {
-          "id": "cell_3_4",
-          "row_id": "row_3",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1547.9717683792114,
-              "xmax": 1560.2869081497192,
-              "ymin": 1317.1151196956635,
-              "ymax": 1343.2629354298115
-          },
-          "ocr_text": "1",
-          "is_header": false,
-          "confidence": 98.60469055175781
-      },
-      {
-          "id": "cell_3_5",
-          "row_id": "row_3",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1727.3004961013794,
-              "xmax": 1834.277777671814,
-              "ymin": 1316.277373433113,
-              "ymax": 1344.8030515015125
-          },
-          "ocr_text": "324.50",
-          "is_header": false,
-          "confidence": 98.95181274414062
-      },
-      {
-          "id": "cell_3_6",
-          "row_id": "row_3",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1906.6543531417847,
-              "xmax": 2014.3692541122437,
-              "ymin": 1316.207073777914,
-              "ymax": 1344.6666304767132
-          },
-          "ocr_text": "275.00",
-          "is_header": false,
-          "confidence": 98.98702239990234
-      },
-      {
-          "id": "cell_3_7",
-          "row_id": "row_3",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2048.951334953308,
-              "xmax": 2134.7567224502563,
-              "ymin": 1316.3802637159824,
-              "ymax": 1344.4306617975235
-          },
-          "ocr_text": "10.00",
-          "is_header": false,
-          "confidence": 98.9808578491211
-      },
-      {
-          "id": "cell_3_7",
-          "row_id": "row_3",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "27.5",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_3_8",
-          "row_id": "row_3",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "247.5",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_4_1",
-          "row_id": "row_4",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 245.4425597190857,
-              "xmax": 464.81252789497375,
-              "ymin": 1378.2828183472157,
-              "ymax": 1407.6688054203987
-          },
-          "ocr_text": "90118WC346",
-          "is_header": false,
-          "confidence": 98.8188705444336
-      },
-      {
-          "id": "cell_4_2",
-          "row_id": "row_4",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 547.2765290737152,
-              "xmax": 884.2759490013123,
-              "ymin": 1378.2434380054474,
-              "ymax": 1411.6820487380028
-          },
-          "ocr_text": "BELT,WATER PUMP",
-          "is_header": false,
-          "confidence": 98.29500961303711
-      },
-      {
-          "id": "cell_4_3",
-          "row_id": "row_4",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1266.6385555267334,
-              "xmax": 1424.3044805526733,
-              "ymin": 1379.1661079227924,
-              "ymax": 1407.6689098775387
-          },
-          "ocr_text": "40103190",
-          "is_header": false,
-          "confidence": 98.96497344970703
-      },
-      {
-          "id": "cell_4_4",
-          "row_id": "row_4",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1547.9488563537598,
-              "xmax": 1560.0539445877075,
-              "ymin": 1379.875476360321,
-              "ymax": 1406.3583905994892
-          },
-          "ocr_text": "1",
-          "is_header": false,
-          "confidence": 98.60848999023438
-      },
-      {
-          "id": "cell_4_5",
-          "row_id": "row_4",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1727.1231126785278,
-              "xmax": 1834.5277404785156,
-              "ymin": 1379.1873127222061,
-              "ymax": 1407.9044607281685
-          },
-          "ocr_text": "324.50",
-          "is_header": false,
-          "confidence": 98.97178649902344
-      },
-      {
-          "id": "cell_4_6",
-          "row_id": "row_4",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1906.4967775344849,
-              "xmax": 2014.6116781234741,
-              "ymin": 1379.1419783234596,
-              "ymax": 1408.0045306682587
-          },
-          "ocr_text": "275.00",
-          "is_header": false,
-          "confidence": 98.98780822753906
-      },
-      {
-          "id": "cell_4_7",
-          "row_id": "row_4",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2048.9294576644897,
-              "xmax": 2135.0983333587646,
-              "ymin": 1379.4603636860847,
-              "ymax": 1407.5562006235123
-          },
-          "ocr_text": "10.00",
-          "is_header": false,
-          "confidence": 98.9833984375
-      },
-      {
-          "id": "cell_4_7",
-          "row_id": "row_4",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "27.5",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_4_8",
-          "row_id": "row_4",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "247.5",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_5_1",
-          "row_id": "row_5",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 247.03677475452423,
-              "xmax": 440.1031279563904,
-              "ymin": 1441.453482657671,
-              "ymax": 1469.2869232594967
-          },
-          "ocr_text": "8463234011",
-          "is_header": false,
-          "confidence": 98.81642150878906
-      },
-      {
-          "id": "cell_5_2",
-          "row_id": "row_5",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 547.6221311092377,
-              "xmax": 826.6244149208069,
-              "ymin": 1440.5019825696945,
-              "ymax": 1474.0299041569233
-          },
-          "ocr_text": "SWITCH, SPEED",
-          "is_header": false,
-          "confidence": 98.08478927612305
-      },
-      {
-          "id": "cell_5_3",
-          "row_id": "row_5",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1268.7854862213135,
-              "xmax": 1424.6771335601807,
-              "ymin": 1441.483357399702,
-              "ymax": 1469.1508156061172
-          },
-          "ocr_text": "85365020",
-          "is_header": false,
-          "confidence": 98.95796966552734
-      },
-      {
-          "id": "cell_5_4",
-          "row_id": "row_5",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1547.8932762145996,
-              "xmax": 1560.2184677124023,
-              "ymin": 1441.963337957859,
-              "ymax": 1468.0181868374348
-          },
-          "ocr_text": "1",
-          "is_header": false,
-          "confidence": 98.69666290283203
-      },
-      {
-          "id": "cell_5_5",
-          "row_id": "row_5",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1705.2934217453003,
-              "xmax": 1834.1564178466797,
-              "ymin": 1439.6927531063557,
-              "ymax": 1468.7260928750038
-          },
-          "ocr_text": "4843.00",
-          "is_header": false,
-          "confidence": 98.94694519042969
-      },
-      {
-          "id": "cell_5_6",
-          "row_id": "row_5",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1885.99036693573,
-              "xmax": 2014.136881828308,
-              "ymin": 1440.2270513772964,
-              "ymax": 1470.3440295159817
-          },
-          "ocr_text": "4104.24",
-          "is_header": false,
-          "confidence": 98.984619140625
-      },
-      {
-          "id": "cell_5_7",
-          "row_id": "row_5",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2049.0284967422485,
-              "xmax": 2134.6915340423584,
-              "ymin": 1441.319464147091,
-              "ymax": 1469.3156489729881
-          },
-          "ocr_text": "16.00",
-          "is_header": false,
-          "confidence": 98.98542022705078
-      },
-      {
-          "id": "cell_5_7",
-          "row_id": "row_5",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "656.68",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_5_8",
-          "row_id": "row_5",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "3447.56",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_6_1",
-          "row_id": "row_6",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 247.1194612979889,
-              "xmax": 443.90475034713745,
-              "ymin": 1504.0033581852913,
-              "ymax": 1532.6631592214108
-          },
-          "ocr_text": "9046710203",
-          "is_header": false,
-          "confidence": 98.89810943603516
-      },
-      {
-          "id": "cell_6_2",
-          "row_id": "row_6",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 547.849292755127,
-              "xmax": 625.3762698173523,
-              "ymin": 1504.306074976921,
-              "ymax": 1532.1748220920563
-          },
-          "ocr_text": "CLIP",
-          "is_header": false,
-          "confidence": 98.9517822265625
-      },
-      {
-          "id": "cell_6_3",
-          "row_id": "row_6",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1268.532567024231,
-              "xmax": 1424.6710729599,
-              "ymin": 1504.8712925612926,
-              "ymax": 1532.4940431118011
-          },
-          "ocr_text": "39269099",
-          "is_header": false,
-          "confidence": 98.96348571777344
-      },
-      {
-          "id": "cell_6_4",
-          "row_id": "row_6",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1546.1411714553833,
-              "xmax": 1564.0999126434326,
-              "ymin": 1504.9544404447079,
-              "ymax": 1532.3170927166939
-          },
-          "ocr_text": "5",
-          "is_header": false,
-          "confidence": 98.93927764892578
-      },
-      {
-          "id": "cell_6_5",
-          "row_id": "row_6",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1746.7795610427856,
-              "xmax": 1834.8776292800903,
-              "ymin": 1504.5631439983845,
-              "ymax": 1532.333283573389
-          },
-          "ocr_text": "51.00",
-          "is_header": false,
-          "confidence": 98.9847412109375
-      },
-      {
-          "id": "cell_6_6",
-          "row_id": "row_6",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1925.9606170654297,
-              "xmax": 2014.6101999282837,
-              "ymin": 1504.383686631918,
-              "ymax": 1532.7014949917793
-          },
-          "ocr_text": "43.22",
-          "is_header": false,
-          "confidence": 98.94775390625
-      },
-      {
-          "id": "cell_6_7",
-          "row_id": "row_6",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2049.0762424468994,
-              "xmax": 2134.273796081543,
-              "ymin": 1504.5993906259537,
-              "ymax": 1532.5627759099007
-          },
-          "ocr_text": "15.99",
-          "is_header": false,
-          "confidence": 98.93456268310547
-      },
-      {
-          "id": "cell_6_7",
-          "row_id": "row_6",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "6.91",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_6_8",
-          "row_id": "row_6",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "36.31",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_7_1",
-          "row_id": "row_7",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 246.61297619342804,
-              "xmax": 444.4327247142792,
-              "ymin": 1566.085370182991,
-              "ymax": 1594.1610468924046
-          },
-          "ocr_text": "9046709075",
-          "is_header": false,
-          "confidence": 98.9326400756836
-      },
-      {
-          "id": "cell_7_2",
-          "row_id": "row_7",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 547.8671419620514,
-              "xmax": 625.1763439178467,
-              "ymin": 1566.29010617733,
-              "ymax": 1593.3615319430828
-          },
-          "ocr_text": "CLIP",
-          "is_header": false,
-          "confidence": 98.85746765136719
-      },
-      {
-          "id": "cell_7_3",
-          "row_id": "row_7",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1268.0781698226929,
-              "xmax": 1424.4499349594116,
-              "ymin": 1566.0403491556644,
-              "ymax": 1594.0304754674435
-          },
-          "ocr_text": "39269099",
-          "is_header": false,
-          "confidence": 98.87089538574219
-      },
-      {
-          "id": "cell_7_4",
-          "row_id": "row_7",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1547.7302312850952,
-              "xmax": 1560.6084156036377,
-              "ymin": 1566.5341180562973,
-              "ymax": 1593.5135170817375
-          },
-          "ocr_text": "1",
-          "is_header": false,
-          "confidence": 98.72514343261719
-      },
-      {
-          "id": "cell_7_5",
-          "row_id": "row_7",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1746.2639665603638,
-              "xmax": 1834.7437047958374,
-              "ymin": 1565.9996108710766,
-              "ymax": 1594.4594809412956
-          },
-          "ocr_text": "64.00",
-          "is_header": false,
-          "confidence": 98.9850845336914
-      },
-      {
-          "id": "cell_7_6",
-          "row_id": "row_7",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1926.9909191131592,
-              "xmax": 2014.6640062332153,
-              "ymin": 1565.800306648016,
-              "ymax": 1594.8366756737232
-          },
-          "ocr_text": "54.24",
-          "is_header": false,
-          "confidence": 98.97148895263672
-      },
-      {
-          "id": "cell_7_7",
-          "row_id": "row_7",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2049.1282749176025,
-              "xmax": 2134.896264076233,
-              "ymin": 1565.9392346441746,
-              "ymax": 1594.0831218659878
-          },
-          "ocr_text": "16.00",
-          "is_header": false,
-          "confidence": 98.98818969726562
-      },
-      {
-          "id": "cell_7_7",
-          "row_id": "row_7",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "8.68",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_7_8",
-          "row_id": "row_7",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "45.56",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_8_1",
-          "row_id": "row_8",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 247.4012792110443,
-              "xmax": 443.56051564216614,
-              "ymin": 1629.3500459194183,
-              "ymax": 1657.592749595642
-          },
-          "ocr_text": "851500K091",
-          "is_header": false,
-          "confidence": 98.694580078125
-      },
-      {
-          "id": "cell_8_2",
-          "row_id": "row_8",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 548.0871713161469,
-              "xmax": 922.2884035110474,
-              "ymin": 1628.9802676439285,
-              "ymax": 1661.5086388587952
-          },
-          "ocr_text": "LINK ASSY, FR WIPER",
-          "is_header": false,
-          "confidence": 98.74396514892578
-      },
-      {
-          "id": "cell_8_3",
-          "row_id": "row_8",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1267.6123905181885,
-              "xmax": 1424.3467569351196,
-              "ymin": 1629.8056879639626,
-              "ymax": 1657.5196295976639
-          },
-          "ocr_text": "85124000",
-          "is_header": false,
-          "confidence": 98.96080017089844
-      },
-      {
-          "id": "cell_8_4",
-          "row_id": "row_8",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1547.6857376098633,
-              "xmax": 1560.2489185333252,
-              "ymin": 1630.8885951340199,
-              "ymax": 1656.7589727044106
-          },
-          "ocr_text": "1",
-          "is_header": false,
-          "confidence": 98.6052474975586
-      },
-      {
-          "id": "cell_8_5",
-          "row_id": "row_8",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1707.0354747772217,
-              "xmax": 1834.308524131775,
-              "ymin": 1628.9992788434029,
-              "ymax": 1657.924923300743
-          },
-          "ocr_text": "3461.00",
-          "is_header": false,
-          "confidence": 98.97356414794922
-      },
-      {
-          "id": "cell_8_6",
-          "row_id": "row_8",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1887.1732187271118,
-              "xmax": 2015.378122329712,
-              "ymin": 1628.938380330801,
-              "ymax": 1658.4170208871365
-          },
-          "ocr_text": "2933.05",
-          "is_header": false,
-          "confidence": 98.9840316772461
-      },
-      {
-          "id": "cell_8_7",
-          "row_id": "row_8",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2049.656729698181,
-              "xmax": 2134.9571657180786,
-              "ymin": 1630.1471583545208,
-              "ymax": 1657.740556448698
-          },
-          "ocr_text": "16.00",
-          "is_header": false,
-          "confidence": 98.98847198486328
-      },
-      {
-          "id": "cell_8_7",
-          "row_id": "row_8",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "469.29",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_8_8",
-          "row_id": "row_8",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "2463.76",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_9_1",
-          "row_id": "row_9",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 247.29065477848053,
-              "xmax": 447.7477991580963,
-              "ymin": 1691.0404480993748,
-              "ymax": 1719.6176235377789
-          },
-          "ocr_text": "537350K010",
-          "is_header": false,
-          "confidence": 98.80557250976562
-      },
-      {
-          "id": "cell_9_2",
-          "row_id": "row_9",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 547.7603054046631,
-              "xmax": 968.6623430252075,
-              "ymin": 1690.9921889007092,
-              "ymax": 1724.1151301562786
-          },
-          "ocr_text": "SEAL, FR FENDER APRO",
-          "is_header": false,
-          "confidence": 98.3715991973877
-      },
-      {
-          "id": "cell_9_3",
-          "row_id": "row_9",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1266.0929536819458,
-              "xmax": 1424.4882202148438,
-              "ymin": 1691.1590069532394,
-              "ymax": 1719.6445734798908
-          },
-          "ocr_text": "40169990",
-          "is_header": false,
-          "confidence": 98.94930267333984
-      },
-      {
-          "id": "cell_9_4",
-          "row_id": "row_9",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1545.6288290023804,
-              "xmax": 1564.5302152633667,
-              "ymin": 1691.2761034071445,
-              "ymax": 1719.4097538292408
-          },
-          "ocr_text": "2",
-          "is_header": false,
-          "confidence": 98.92610931396484
-      },
-      {
-          "id": "cell_9_5",
-          "row_id": "row_9",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1728.4571838378906,
-              "xmax": 1834.377999305725,
-              "ymin": 1691.221158951521,
-              "ymax": 1719.315011203289
-          },
-          "ocr_text": "114.50",
-          "is_header": false,
-          "confidence": 98.97026824951172
-      },
-      {
-          "id": "cell_9_6",
-          "row_id": "row_9",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1926.4901065826416,
-              "xmax": 2014.5760536193848,
-              "ymin": 1691.4115843176842,
-              "ymax": 1719.5090925693512
-          },
-          "ocr_text": "97.03",
-          "is_header": false,
-          "confidence": 98.97350311279297
-      },
-      {
-          "id": "cell_9_7",
-          "row_id": "row_9",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2049.0976762771606,
-              "xmax": 2134.6684741973877,
-              "ymin": 1691.3210199773312,
-              "ymax": 1719.328172802925
-          },
-          "ocr_text": "16.00",
-          "is_header": false,
-          "confidence": 98.9885025024414
-      },
-      {
-          "id": "cell_9_7",
-          "row_id": "row_9",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "15.52",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_9_8",
-          "row_id": "row_9",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "81.51",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_10_1",
-          "row_id": "row_10",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 247.53612756729126,
-              "xmax": 447.4658703804016,
-              "ymin": 1754.6887949109077,
-              "ymax": 1781.9761335849762
-          },
-          "ocr_text": "538850K010",
-          "is_header": false,
-          "confidence": 98.73870086669922
-      },
-      {
-          "id": "cell_10_2",
-          "row_id": "row_10",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 548.0628550052643,
-              "xmax": 937.1162533760071,
-              "ymin": 1753.9206171035767,
-              "ymax": 1786.3497540354729
-          },
-          "ocr_text": "SEAL, FENDER APRON",
-          "is_header": false,
-          "confidence": 98.23535664876302
-      },
-      {
-          "id": "cell_10_3",
-          "row_id": "row_10",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1266.7525243759155,
-              "xmax": 1423.866195678711,
-              "ymin": 1754.8452717065811,
-              "ymax": 1782.2239059209824
-          },
-          "ocr_text": "40169990",
-          "is_header": false,
-          "confidence": 98.93504333496094
-      },
-      {
-          "id": "cell_10_4",
-          "row_id": "row_10",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1548.2515907287598,
-              "xmax": 1560.100359916687,
-              "ymin": 1755.3266102075577,
-              "ymax": 1781.2591397762299
-          },
-          "ocr_text": "1",
-          "is_header": false,
-          "confidence": 98.63034057617188
-      },
-      {
-          "id": "cell_10_5",
-          "row_id": "row_10",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1727.3016786575317,
-              "xmax": 1834.1293668746948,
-              "ymin": 1754.7205498814583,
-              "ymax": 1782.4150624871254
-          },
-          "ocr_text": "221.00",
-          "is_header": false,
-          "confidence": 98.98027801513672
-      },
-      {
-          "id": "cell_10_6",
-          "row_id": "row_10",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1910.1291465759277,
-              "xmax": 2014.3163347244263,
-              "ymin": 1754.973127245903,
-              "ymax": 1782.295354604721
-          },
-          "ocr_text": "187.29",
-          "is_header": false,
-          "confidence": 98.96516418457031
-      },
-      {
-          "id": "cell_10_7",
-          "row_id": "row_10",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2049.456729888916,
-              "xmax": 2134.4712829589844,
-              "ymin": 1754.4654655456543,
-              "ymax": 1782.5157591700554
-          },
-          "ocr_text": "16.00",
-          "is_header": false,
-          "confidence": 98.98868560791016
-      },
-      {
-          "id": "cell_10_7",
-          "row_id": "row_10",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "29.97",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_10_8",
-          "row_id": "row_10",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "157.32",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_11_1",
-          "row_id": "row_11",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 246.81179344654083,
-              "xmax": 492.3521912097931,
-              "ymin": 2003.8021516799927,
-              "ymax": 2032.2320425510406
-          },
-          "ocr_text": "742720K070E0",
-          "is_header": false,
-          "confidence": 97.04547882080078
-      },
-      {
-          "id": "cell_11_2",
-          "row_id": "row_11",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 548.3401274681091,
-              "xmax": 937.8038358688354,
-              "ymin": 2003.8433077931404,
-              "ymax": 2037.1078929305077
-          },
-          "ocr_text": "PANEL, RR A-REST, LH",
-          "is_header": false,
-          "confidence": 97.57311630249023
-      },
-      {
-          "id": "cell_11_3",
-          "row_id": "row_11",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1268.3528184890747,
-              "xmax": 1424.6214056015015,
-              "ymin": 2003.9663583040237,
-              "ymax": 2032.0202034711838
-          },
-          "ocr_text": "87089900",
-          "is_header": false,
-          "confidence": 98.96170043945312
-      },
-      {
-          "id": "cell_11_4",
-          "row_id": "row_11",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1547.8552865982056,
-              "xmax": 1560.6316232681274,
-              "ymin": 2004.653477370739,
-              "ymax": 2031.4797422289848
-          },
-          "ocr_text": "1",
-          "is_header": false,
-          "confidence": 98.74020385742188
-      },
-      {
-          "id": "cell_11_5",
-          "row_id": "row_11",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1726.1106967926025,
-              "xmax": 1834.3753385543823,
-              "ymin": 2004.150411784649,
-              "ymax": 2032.425288259983
-          },
-          "ocr_text": "479.00",
-          "is_header": false,
-          "confidence": 98.93904876708984
-      },
-      {
-          "id": "cell_11_6",
-          "row_id": "row_11",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1907.2314405441284,
-              "xmax": 2014.315152168274,
-              "ymin": 2003.841009736061,
-              "ymax": 2032.4505668878555
-          },
-          "ocr_text": "374.22",
-          "is_header": false,
-          "confidence": 98.97393035888672
-      },
-      {
-          "id": "cell_11_7",
-          "row_id": "row_11",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2049.164786338806,
-              "xmax": 2134.6922731399536,
-              "ymin": 2004.384813606739,
-              "ymax": 2032.1608027815819
-          },
-          "ocr_text": "16.00",
-          "is_header": false,
-          "confidence": 98.69002532958984
-      },
-      {
-          "id": "cell_1_-1",
-          "row_id": "row_1",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "18",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_2_-1",
-          "row_id": "row_2",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "18",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_3_-1",
-          "row_id": "row_3",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "18",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_4_-1",
-          "row_id": "row_4",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "18",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_5_-1",
-          "row_id": "row_5",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "18",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_6_-1",
-          "row_id": "row_6",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "18",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_7_-1",
-          "row_id": "row_7",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "18",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_8_-1",
-          "row_id": "row_8",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "18",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_9_-1",
-          "row_id": "row_9",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "18",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_10_-1",
-          "row_id": "row_10",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "18",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_11_7",
-          "row_id": "row_11",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "59.88",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_11_8",
-          "row_id": "row_11",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "314.34",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_12_1",
-          "row_id": "row_12",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 248.8990420103073,
-              "xmax": 443.9347207546234,
-              "ymin": 2066.136741042137,
-              "ymax": 2094.804794192314
-          },
-          "ocr_text": "1671205030",
-          "is_header": false,
-          "confidence": 98.83834075927734
-      },
-      {
-          "id": "cell_12_2",
-          "row_id": "row_12",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 547.4087905883789,
-              "xmax": 892.3553204536438,
-              "ymin": 2065.9982308745384,
-              "ymax": 2098.8934555649757
-          },
-          "ocr_text": "SHROUD, FAN, NO.2",
-          "is_header": false,
-          "confidence": 97.60040028889973
-      },
-      {
-          "id": "cell_12_3",
-          "row_id": "row_12",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1268.044023513794,
-              "xmax": 1424.5735120773315,
-              "ymin": 2066.8566596508026,
-              "ymax": 2094.240934550762
-          },
-          "ocr_text": "87089900",
-          "is_header": false,
-          "confidence": 98.9607925415039
-      },
-      {
-          "id": "cell_12_4",
-          "row_id": "row_12",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1548.1804895401,
-              "xmax": 1560.2600049972534,
-              "ymin": 2067.1157133579254,
-              "ymax": 2093.9075073599815
-          },
-          "ocr_text": "1",
-          "is_header": false,
-          "confidence": 98.57543182373047
-      },
-      {
-          "id": "cell_12_5",
-          "row_id": "row_12",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1729.1952466964722,
-              "xmax": 1833.9058637619019,
-              "ymin": 2066.6665476560593,
-              "ymax": 2094.6700444817543
-          },
-          "ocr_text": "157.50",
-          "is_header": false,
-          "confidence": 98.97724914550781
-      },
-      {
-          "id": "cell_12_6",
-          "row_id": "row_12",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1909.2377948760986,
-              "xmax": 2014.5688104629517,
-              "ymin": 2066.5541517734528,
-              "ymax": 2094.6531224250793
-          },
-          "ocr_text": "123.05",
-          "is_header": false,
-          "confidence": 98.98065948486328
-      },
-      {
-          "id": "cell_12_7",
-          "row_id": "row_12",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2049.436330795288,
-              "xmax": 2134.266405105591,
-              "ymin": 2066.8109074234962,
-              "ymax": 2094.436269402504
-          },
-          "ocr_text": "16.00",
-          "is_header": false,
-          "confidence": 98.98678588867188
-      },
-      {
-          "id": "cell_12_7",
-          "row_id": "row_12",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "19.69",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_12_8",
-          "row_id": "row_12",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "103.36",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_13_1",
-          "row_id": "row_13",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 246.68740332126617,
-              "xmax": 447.2253680229187,
-              "ymin": 2128.799534738064,
-              "ymax": 2157.333464920521
-          },
-          "ocr_text": "838520K680",
-          "is_header": false,
-          "confidence": 98.85623931884766
-      },
-      {
-          "id": "cell_13_2",
-          "row_id": "row_13",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 548.5738670825958,
-              "xmax": 924.0235090255737,
-              "ymin": 2128.8097715377808,
-              "ymax": 2157.816265821457
-          },
-          "ocr_text": "GLASS COMBI METER",
-          "is_header": false,
-          "confidence": 98.6626688639323
-      },
-      {
-          "id": "cell_13_3",
-          "row_id": "row_13",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1267.5665664672852,
-              "xmax": 1424.4657516479492,
-              "ymin": 2129.0429198741913,
-              "ymax": 2157.416194975376
-          },
-          "ocr_text": "87089900",
-          "is_header": false,
-          "confidence": 98.9535903930664
-      },
-      {
-          "id": "cell_13_4",
-          "row_id": "row_13",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1547.8666687011719,
-              "xmax": 1560.0409364700317,
-              "ymin": 2130.1386752724648,
-              "ymax": 2156.892655789852
-          },
-          "ocr_text": "1",
-          "is_header": false,
-          "confidence": 98.68433380126953
-      },
-      {
-          "id": "cell_13_5",
-          "row_id": "row_13",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1727.7273988723755,
-              "xmax": 1834.026484489441,
-              "ymin": 2129.1902044415474,
-              "ymax": 2157.6388975977898
-          },
-          "ocr_text": "593.00",
-          "is_header": false,
-          "confidence": 98.9852294921875
-      },
-      {
-          "id": "cell_13_6",
-          "row_id": "row_13",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1906.084656715393,
-              "xmax": 2014.2162609100342,
-              "ymin": 2128.963532447815,
-              "ymax": 2157.7441903948784
-          },
-          "ocr_text": "463.28",
-          "is_header": false,
-          "confidence": 98.95889282226562
-      },
-      {
-          "id": "cell_13_7",
-          "row_id": "row_13",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2049.274320602417,
-              "xmax": 2134.828267097473,
-              "ymin": 2129.3870016932487,
-              "ymax": 2157.4882704019547
-          },
-          "ocr_text": "16.00",
-          "is_header": false,
-          "confidence": 98.98832702636719
-      },
-      {
-          "id": "cell_13_7",
-          "row_id": "row_13",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "74.12",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_13_8",
-          "row_id": "row_13",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "389.16",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_14_1",
-          "row_id": "row_14",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 246.7358696460724,
-              "xmax": 444.16635394096375,
-              "ymin": 2191.507871747017,
-              "ymax": 2219.7520378232
-          },
-          "ocr_text": "9015950199",
-          "is_header": false,
-          "confidence": 98.92757415771484
-      },
-      {
-          "id": "cell_14_2",
-          "row_id": "row_14",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 547.8778219223022,
-              "xmax": 896.5289306640625,
-              "ymin": 2190.678690969944,
-              "ymax": 2223.6407682299614
-          },
-          "ocr_text": "SCREW, W/WASHER",
-          "is_header": false,
-          "confidence": 97.609375
-      },
-      {
-          "id": "cell_14_3",
-          "row_id": "row_14",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1268.498125076294,
-              "xmax": 1424.5525217056274,
-              "ymin": 2191.672078371048,
-              "ymax": 2219.438039660454
-          },
-          "ocr_text": "87081090",
-          "is_header": false,
-          "confidence": 98.94742584228516
-      },
-      {
-          "id": "cell_14_4",
-          "row_id": "row_14",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1547.9006671905518,
-              "xmax": 1560.385947227478,
-              "ymin": 2192.6261898875237,
-              "ymax": 2218.882954418659
-          },
-          "ocr_text": "1",
-          "is_header": false,
-          "confidence": 98.7021255493164
-      },
-      {
-          "id": "cell_14_5",
-          "row_id": "row_14",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1746.0165166854858,
-              "xmax": 1834.2938899993896,
-              "ymin": 2191.587677001953,
-              "ymax": 2219.242286980152
-          },
-          "ocr_text": "61.00",
-          "is_header": false,
-          "confidence": 98.95244598388672
-      },
-      {
-          "id": "cell_14_6",
-          "row_id": "row_14",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1925.31494140625,
-              "xmax": 2014.7985219955444,
-              "ymin": 2191.3547375798225,
-              "ymax": 2219.5404076576233
-          },
-          "ocr_text": "47.66",
-          "is_header": false,
-          "confidence": 98.95320129394531
-      },
-      {
-          "id": "cell_14_7",
-          "row_id": "row_14",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2048.593463897705,
-              "xmax": 2131.3484477996826,
-              "ymin": 2191.121380329132,
-              "ymax": 2219.8550325632095
-          },
-          "ocr_text": "16.01",
-          "is_header": false,
-          "confidence": 98.96987915039062
-      },
-      {
-          "id": "cell_14_7",
-          "row_id": "row_14",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "7.63",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_14_8",
-          "row_id": "row_14",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "40.03",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_15_1",
-          "row_id": "row_15",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 247.5087809562683,
-              "xmax": 493.10651421546936,
-              "ymin": 2253.3761644363403,
-              "ymax": 2282.933983504772
-          },
-          "ocr_text": "721570K060C0",
-          "is_header": false,
-          "confidence": 97.07494354248047
-      },
-      {
-          "id": "cell_15_2",
-          "row_id": "row_15",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 547.8750503063202,
-              "xmax": 905.1692032814026,
-              "ymin": 2253.461819291115,
-              "ymax": 2282.8625348210335
-          },
-          "ocr_text": "COVER SEAT TRACK",
-          "is_header": false,
-          "confidence": 98.94329325358073
-      },
-      {
-          "id": "cell_15_3",
-          "row_id": "row_15",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1267.3222208023071,
-              "xmax": 1424.0811252593994,
-              "ymin": 2253.9297872781754,
-              "ymax": 2283.079387843609
-          },
-          "ocr_text": "87089900",
-          "is_header": false,
-          "confidence": 98.9522705078125
-      },
-      {
-          "id": "cell_15_4",
-          "row_id": "row_15",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1545.7386589050293,
-              "xmax": 1563.9614057540894,
-              "ymin": 2254.7723385691643,
-              "ymax": 2282.2314047813416
-          },
-          "ocr_text": "3",
-          "is_header": false,
-          "confidence": 98.92874145507812
-      },
-      {
-          "id": "cell_15_5",
-          "row_id": "row_15",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1729.184603691101,
-              "xmax": 1834.246735572815,
-              "ymin": 2254.1974064707756,
-              "ymax": 2282.660096883774
-          },
-          "ocr_text": "106.50",
-          "is_header": false,
-          "confidence": 98.86772155761719
-      },
-      {
-          "id": "cell_15_6",
-          "row_id": "row_15",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1927.2599506378174,
-              "xmax": 2014.6486330032349,
-              "ymin": 2253.840580880642,
-              "ymax": 2282.709191739559
-          },
-          "ocr_text": "83.20",
-          "is_header": false,
-          "confidence": 98.95500183105469
-      },
-      {
-          "id": "cell_15_7",
-          "row_id": "row_15",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2048.9179277420044,
-              "xmax": 2134.841423034668,
-              "ymin": 2254.0171134471893,
-              "ymax": 2282.8263926506042
-          },
-          "ocr_text": "16.00",
-          "is_header": false,
-          "confidence": 98.98848724365234
-      },
-      {
-          "id": "cell_15_7",
-          "row_id": "row_15",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "13.31",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_15_8",
-          "row_id": "row_15",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "69.89",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_16_1",
-          "row_id": "row_16",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 248.1253546476364,
-              "xmax": 464.09955739974976,
-              "ymin": 2316.367580294609,
-              "ymax": 2344.626579284668
-          },
-          "ocr_text": "16100WC008",
-          "is_header": false,
-          "confidence": 98.68815612792969
-      },
-      {
-          "id": "cell_16_2",
-          "row_id": "row_16",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 548.6241257190704,
-              "xmax": 925.8896565437317,
-              "ymin": 2315.709709227085,
-              "ymax": 2348.731118142605
-          },
-          "ocr_text": "PUMP ASSY, WATER 1",
-          "is_header": false,
-          "confidence": 98.66094779968262
-      },
-      {
-          "id": "cell_16_3",
-          "row_id": "row_16",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1268.707880973816,
-              "xmax": 1424.052004814148,
-              "ymin": 2316.4530262351036,
-              "ymax": 2343.91543507576
-          },
-          "ocr_text": "87081090",
-          "is_header": false,
-          "confidence": 98.94072723388672
-      },
-      {
-          "id": "cell_16_4",
-          "row_id": "row_16",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1547.8719902038574,
-              "xmax": 1560.6811428070068,
-              "ymin": 2317.354700267315,
-              "ymax": 2343.764181137085
-          },
-          "ocr_text": "1",
-          "is_header": false,
-          "confidence": 98.77313232421875
-      },
-      {
-          "id": "cell_16_5",
-          "row_id": "row_16",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1709.2913484573364,
-              "xmax": 1834.3348360061646,
-              "ymin": 2315.696965456009,
-              "ymax": 2345.167458355427
-          },
-          "ocr_text": "1900.00",
-          "is_header": false,
-          "confidence": 98.98751068115234
-      },
-      {
-          "id": "cell_16_6",
-          "row_id": "row_16",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1889.9902153015137,
-              "xmax": 2014.4243907928467,
-              "ymin": 2315.478023290634,
-              "ymax": 2344.8505353927612
-          },
-          "ocr_text": "1484.38",
-          "is_header": false,
-          "confidence": 98.96923828125
-      },
-      {
-          "id": "cell_16_7",
-          "row_id": "row_16",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2048.7488222122192,
-              "xmax": 2134.9834775924683,
-              "ymin": 2316.388471722603,
-              "ymax": 2344.409099519253
-          },
-          "ocr_text": "10.00",
-          "is_header": false,
-          "confidence": 98.94756317138672
-      },
-      {
-          "id": "cell_16_7",
-          "row_id": "row_16",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "148.44",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_16_8",
-          "row_id": "row_16",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "1335.94",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_17_1",
-          "row_id": "row_17",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 244.90660309791565,
-              "xmax": 465.1217293739319,
-              "ymin": 2377.8055095672607,
-              "ymax": 2407.3000276088715
-          },
-          "ocr_text": "27060WC005",
-          "is_header": false,
-          "confidence": 98.82632446289062
-      },
-      {
-          "id": "cell_17_2",
-          "row_id": "row_17",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 548.1586790084839,
-              "xmax": 1171.7660665512085,
-              "ymin": 2377.67326682806,
-              "ymax": 2412.0891785621643
-          },
-          "ocr_text": "ALTERNATOR ASSY, W/REGULATOR",
-          "is_header": false,
-          "confidence": 98.13470713297527
-      },
-      {
-          "id": "cell_17_3",
-          "row_id": "row_17",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1267.352967262268,
-              "xmax": 1424.18297290802,
-              "ymin": 2379.1657504439354,
-              "ymax": 2407.9313665628433
-          },
-          "ocr_text": "85115000",
-          "is_header": false,
-          "confidence": 98.9630355834961
-      },
-      {
-          "id": "cell_17_4",
-          "row_id": "row_17",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1548.100962638855,
-              "xmax": 1560.33775806427,
-              "ymin": 2379.8597636818886,
-              "ymax": 2406.8738424777985
-          },
-          "ocr_text": "1",
-          "is_header": false,
-          "confidence": 98.64765167236328
-      },
-      {
-          "id": "cell_17_5",
-          "row_id": "row_17",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1689.6340131759644,
-              "xmax": 1835.0816202163696,
-              "ymin": 2378.755024969578,
-              "ymax": 2407.653719484806
-          },
-          "ocr_text": "11497.00",
-          "is_header": false,
-          "confidence": 98.97001647949219
-      },
-      {
-          "id": "cell_17_6",
-          "row_id": "row_17",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1888.0772829055786,
-              "xmax": 2014.6433115005493,
-              "ymin": 2379.0303739905357,
-              "ymax": 2407.520014345646
-          },
-          "ocr_text": "8982.03",
-          "is_header": false,
-          "confidence": 98.97895050048828
-      },
-      {
-          "id": "cell_17_7",
-          "row_id": "row_17",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2048.8812685012817,
-              "xmax": 2134.906907081604,
-              "ymin": 2379.3370601534843,
-              "ymax": 2407.94181227684
-          },
-          "ocr_text": "10.00",
-          "is_header": false,
-          "confidence": 98.98701477050781
-      },
-      {
-          "id": "cell_17_7",
-          "row_id": "row_17",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "898.2",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_17_8",
-          "row_id": "row_17",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "8083.83",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_18_1",
-          "row_id": "row_18",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 246.9451266527176,
-              "xmax": 492.4113929271698,
-              "ymin": 2440.983694791794,
-              "ymax": 2469.2374709248543
-          },
-          "ocr_text": "617830K140C0",
-          "is_header": false,
-          "confidence": 94.13351440429688
-      },
-      {
-          "id": "cell_18_2",
-          "row_id": "row_18",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 548.2093811035156,
-              "xmax": 970.7760143280029,
-              "ymin": 2441.0210904479027,
-              "ymax": 2473.8177075982094
-          },
-          "ocr_text": "PAD, RR WHEEL OPENIN",
-          "is_header": false,
-          "confidence": 98.53033065795898
-      },
-      {
-          "id": "cell_18_3",
-          "row_id": "row_18",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1268.3520793914795,
-              "xmax": 1424.248604774475,
-              "ymin": 2441.1961606144905,
-              "ymax": 2468.9886540174484
-          },
-          "ocr_text": "87081090",
-          "is_header": false,
-          "confidence": 98.93840789794922
-      },
-      {
-          "id": "cell_18_4",
-          "row_id": "row_18",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1548.190393447876,
-              "xmax": 1560.1902341842651,
-              "ymin": 2441.778195798397,
-              "ymax": 2468.2601699233055
-          },
-          "ocr_text": "1",
-          "is_header": false,
-          "confidence": 98.57274627685547
-      },
-      {
-          "id": "cell_18_5",
-          "row_id": "row_18",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1722.616686820984,
-              "xmax": 1836.1522769927979,
-              "ymin": 2438.586612343788,
-              "ymax": 2468.7805753946304
-          },
-          "ocr_text": "406.00",
-          "is_header": false,
-          "confidence": 98.94918060302734
-      },
-      {
-          "id": "cell_18_6",
-          "row_id": "row_18",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1906.785912513733,
-              "xmax": 2014.7506284713745,
-              "ymin": 2440.640448629856,
-              "ymax": 2469.446803033352
-          },
-          "ocr_text": "317.19",
-          "is_header": false,
-          "confidence": 98.75220489501953
-      },
-      {
-          "id": "cell_18_7",
-          "row_id": "row_18",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2048.3235454559326,
-              "xmax": 2135.2669954299927,
-              "ymin": 2441.33258163929,
-              "ymax": 2468.9184588193893
-          },
-          "ocr_text": "16.00",
-          "is_header": false,
-          "confidence": 98.95639038085938
-      },
-      {
-          "id": "cell_18_7",
-          "row_id": "row_18",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "50.75",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_18_8",
-          "row_id": "row_18",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "266.44",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_19_1",
-          "row_id": "row_19",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 247.39653050899506,
-              "xmax": 443.843035697937,
-              "ymin": 2504.0356957912445,
-              "ymax": 2532.355697751045
-          },
-          "ocr_text": "5311971010",
-          "is_header": false,
-          "confidence": 98.83863067626953
-      },
-      {
-          "id": "cell_19_2",
-          "row_id": "row_19",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 547.9151463508606,
-              "xmax": 971.3905000686646,
-              "ymin": 2503.6623659729958,
-              "ymax": 2536.4556404948235
-          },
-          "ocr_text": "PROTECTOR, RADIATOR",
-          "is_header": false,
-          "confidence": 91.2875747680664
-      },
-      {
-          "id": "cell_19_3",
-          "row_id": "row_19",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1266.953558921814,
-              "xmax": 1424.4484567642212,
-              "ymin": 2504.4928002357483,
-              "ymax": 2532.514890432358
-          },
-          "ocr_text": "87081090",
-          "is_header": false,
-          "confidence": 98.94578552246094
-      },
-      {
-          "id": "cell_19_4",
-          "row_id": "row_19",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1548.1651163101196,
-              "xmax": 1560.121054649353,
-              "ymin": 2504.828943312168,
-              "ymax": 2532.03731238842
-          },
-          "ocr_text": "1",
-          "is_header": false,
-          "confidence": 98.58216857910156
-      },
-      {
-          "id": "cell_19_5",
-          "row_id": "row_19",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1726.2753677368164,
-              "xmax": 1834.0777778625488,
-              "ymin": 2504.9244171380997,
-              "ymax": 2532.9584154486656
-          },
-          "ocr_text": "468.50",
-          "is_header": false,
-          "confidence": 98.972900390625
-      },
-      {
-          "id": "cell_19_6",
-          "row_id": "row_19",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1907.3647737503052,
-              "xmax": 2014.4297122955322,
-              "ymin": 2504.523301720619,
-              "ymax": 2532.758902311325
-          },
-          "ocr_text": "366.02",
-          "is_header": false,
-          "confidence": 98.90404510498047
-      },
-      {
-          "id": "cell_19_7",
-          "row_id": "row_19",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2049.047269821167,
-              "xmax": 2135.078821182251,
-              "ymin": 2504.75603222847,
-              "ymax": 2532.292605638504
-          },
-          "ocr_text": "16.00",
-          "is_header": false,
-          "confidence": 98.98774719238281
-      },
-      {
-          "id": "cell_19_7",
-          "row_id": "row_19",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "58.56",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_19_8",
-          "row_id": "row_19",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "307.46",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_20_1",
-          "row_id": "row_20",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 247.82315611839294,
-              "xmax": 489.4542634487152,
-              "ymin": 2565.82961499691,
-              "ymax": 2594.3017065525055
-          },
-          "ocr_text": "90467T0025E0",
-          "is_header": false,
-          "confidence": 98.2509994506836
-      },
-      {
-          "id": "cell_20_2",
-          "row_id": "row_20",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 547.9606008529663,
-              "xmax": 625.0204682350159,
-              "ymin": 2566.144866645336,
-              "ymax": 2593.4754505753517
-          },
-          "ocr_text": "CLIP",
-          "is_header": false,
-          "confidence": 98.90502166748047
-      },
-      {
-          "id": "cell_20_3",
-          "row_id": "row_20",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1268.529167175293,
-              "xmax": 1424.5457220077515,
-              "ymin": 2566.0389471054077,
-              "ymax": 2593.81681650877
-          },
-          "ocr_text": "87089900",
-          "is_header": false,
-          "confidence": 98.93885803222656
-      },
-      {
-          "id": "cell_20_4",
-          "row_id": "row_20",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1547.9414653778076,
-              "xmax": 1560.1047945022583,
-              "ymin": 2566.60176217556,
-              "ymax": 2593.4990578889847
-          },
-          "ocr_text": "1",
-          "is_header": false,
-          "confidence": 98.58174896240234
-      },
-      {
-          "id": "cell_20_5",
-          "row_id": "row_20",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1746.278600692749,
-              "xmax": 1834.5536088943481,
-              "ymin": 2566.2200757861137,
-              "ymax": 2594.1702994704247
-          },
-          "ocr_text": "76.00",
-          "is_header": false,
-          "confidence": 98.97742462158203
-      },
-      {
-          "id": "cell_20_6",
-          "row_id": "row_20",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1927.0021533966064,
-              "xmax": 2014.3794536590576,
-              "ymin": 2565.9785708785057,
-              "ymax": 2594.397598206997
-          },
-          "ocr_text": "59.38",
-          "is_header": false,
-          "confidence": 98.79594421386719
-      },
-      {
-          "id": "cell_20_7",
-          "row_id": "row_20",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2049.00972366333,
-              "xmax": 2134.8390579223633,
-              "ymin": 2566.336441040039,
-              "ymax": 2593.98436576128
-          },
-          "ocr_text": "16.00",
-          "is_header": false,
-          "confidence": 98.96879577636719
-      },
-      {
-          "id": "cell_20_7",
-          "row_id": "row_20",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "9.5",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_20_8",
-          "row_id": "row_20",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "49.88",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_21_1",
-          "row_id": "row_21",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 248.47707271575928,
-              "xmax": 459.59047079086304,
-              "ymin": 2629.4928991794586,
-              "ymax": 2657.7015498280525
-          },
-          "ocr_text": "16325WC001",
-          "is_header": false,
-          "confidence": 98.7152099609375
-      },
-      {
-          "id": "cell_21_2",
-          "row_id": "row_21",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 553.9257836341858,
-              "xmax": 937.9348039627075,
-              "ymin": 2628.894986510277,
-              "ymax": 2661.297591328621
-          },
-          "ocr_text": "GASKET,WATER INLET",
-          "is_header": false,
-          "confidence": 97.51697158813477
-      },
-      {
-          "id": "cell_21_3",
-          "row_id": "row_21",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1268.068413734436,
-              "xmax": 1424.747347831726,
-              "ymin": 2629.706827402115,
-              "ymax": 2657.3934012651443
-          },
-          "ocr_text": "87089900",
-          "is_header": false,
-          "confidence": 98.96173858642578
-      },
-      {
-          "id": "cell_21_4",
-          "row_id": "row_21",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1547.653512954712,
-              "xmax": 1560.2730131149292,
-              "ymin": 2630.7518166303635,
-              "ymax": 2656.9095557928085
-          },
-          "ocr_text": "1",
-          "is_header": false,
-          "confidence": 98.56468963623047
-      },
-      {
-          "id": "cell_21_5",
-          "row_id": "row_21",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1746.5978908538818,
-              "xmax": 1834.374451637268,
-              "ymin": 2629.8758390545845,
-              "ymax": 2657.8120654821396
-          },
-          "ocr_text": "20.00",
-          "is_header": false,
-          "confidence": 98.97896575927734
-      },
-      {
-          "id": "cell_21_6",
-          "row_id": "row_21",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1929.3498229980469,
-              "xmax": 2014.6965265274048,
-              "ymin": 2630.109614133835,
-              "ymax": 2657.289988696575
-          },
-          "ocr_text": "15.63",
-          "is_header": false,
-          "confidence": 98.96808624267578
-      },
-      {
-          "id": "cell_21_7",
-          "row_id": "row_21",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2065.8131074905396,
-              "xmax": 2134.6158504486084,
-              "ymin": 2630.180227160454,
-              "ymax": 2657.6346972584724
-          },
-          "ocr_text": "9.99",
-          "is_header": false,
-          "confidence": 98.96833801269531
-      },
-      {
-          "id": "cell_21_7",
-          "row_id": "row_21",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "1.56",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_21_8",
-          "row_id": "row_21",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "14.07",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_22_1",
-          "row_id": "row_22",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 247.11280941963196,
-              "xmax": 490.45193433761597,
-              "ymin": 2690.6180837750435,
-              "ymax": 2719.85793530941
-          },
-          "ocr_text": "697410B040B0",
-          "is_header": false,
-          "confidence": 97.53607177734375
-      },
-      {
-          "id": "cell_22_2",
-          "row_id": "row_22",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 548.3064985275269,
-              "xmax": 937.0244574546814,
-              "ymin": 2690.9030428528786,
-              "ymax": 2723.412193953991
-          },
-          "ocr_text": "KNOB, FR DOOR LOCK",
-          "is_header": false,
-          "confidence": 98.11270332336426
-      },
-      {
-          "id": "cell_22_3",
-          "row_id": "row_22",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1266.943063735962,
-              "xmax": 1424.4018936157227,
-              "ymin": 2690.8898812532425,
-              "ymax": 2719.48857486248
-          },
-          "ocr_text": "87089900",
-          "is_header": false,
-          "confidence": 98.94686889648438
-      },
-      {
-          "id": "cell_22_4",
-          "row_id": "row_22",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1548.101258277893,
-              "xmax": 1560.0512838363647,
-              "ymin": 2691.8872380256653,
-              "ymax": 2718.764060139656
-          },
-          "ocr_text": "1",
-          "is_header": false,
-          "confidence": 98.5356216430664
-      },
-      {
-          "id": "cell_22_5",
-          "row_id": "row_22",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1746.5149641036987,
-              "xmax": 1834.7658777236938,
-              "ymin": 2691.375189125538,
-              "ymax": 2719.4869035482407
-          },
-          "ocr_text": "28.50",
-          "is_header": false,
-          "confidence": 98.9630126953125
-      },
-      {
-          "id": "cell_22_6",
-          "row_id": "row_22",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1926.6983842849731,
-              "xmax": 2014.4025135040283,
-              "ymin": 2690.9914135932922,
-              "ymax": 2719.5048701763153
-          },
-          "ocr_text": "22.27",
-          "is_header": false,
-          "confidence": 98.42304229736328
-      },
-      {
-          "id": "cell_22_7",
-          "row_id": "row_22",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2049.446234703064,
-              "xmax": 2134.8875427246094,
-              "ymin": 2691.428671181202,
-              "ymax": 2719.2560532689095
-          },
-          "ocr_text": "16.03",
-          "is_header": false,
-          "confidence": 98.95935821533203
-      },
-      {
-          "id": "cell_22_7",
-          "row_id": "row_22",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "3.57",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_22_8",
-          "row_id": "row_22",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "18.7",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_23_1",
-          "row_id": "row_23",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 247.06497132778168,
-              "xmax": 492.4403655529022,
-              "ymin": 2754.164584875107,
-              "ymax": 2782.277552783489
-          },
-          "ocr_text": "721370K080C0",
-          "is_header": false,
-          "confidence": 97.6295394897461
-      },
-      {
-          "id": "cell_23_2",
-          "row_id": "row_23",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 548.5183608531952,
-              "xmax": 905.0332832336426,
-              "ymin": 2753.5315746068954,
-              "ymax": 2782.607010602951
-          },
-          "ocr_text": "COVER SEAT TRACK",
-          "is_header": false,
-          "confidence": 98.87032063802083
-      },
-      {
-          "id": "cell_23_3",
-          "row_id": "row_23",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1267.6857089996338,
-              "xmax": 1424.24476146698,
-              "ymin": 2754.395852982998,
-              "ymax": 2782.2704496979713
-          },
-          "ocr_text": "87089900",
-          "is_header": false,
-          "confidence": 98.96640014648438
-      },
-      {
-          "id": "cell_23_4",
-          "row_id": "row_23",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1545.8489322662354,
-              "xmax": 1564.190969467163,
-              "ymin": 2754.9104088544846,
-              "ymax": 2781.6928017139435
-          },
-          "ocr_text": "2",
-          "is_header": false,
-          "confidence": 98.88818359375
-      },
-      {
-          "id": "cell_23_5",
-          "row_id": "row_23",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1729.1284322738647,
-              "xmax": 1834.1788864135742,
-              "ymin": 2754.3442511558533,
-              "ymax": 2782.8004652261734
-          },
-          "ocr_text": "114.00",
-          "is_header": false,
-          "confidence": 98.97598266601562
-      },
-      {
-          "id": "cell_23_6",
-          "row_id": "row_23",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1927.265863418579,
-              "xmax": 2014.8440504074097,
-              "ymin": 2754.609572291374,
-              "ymax": 2782.670520544052
-          },
-          "ocr_text": "89.06",
-          "is_header": false,
-          "confidence": 98.98261260986328
-      },
-      {
-          "id": "cell_23_7",
-          "row_id": "row_23",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2048.7766122817993,
-              "xmax": 2134.81791973114,
-              "ymin": 2754.3666049838066,
-              "ymax": 2782.5144615769386
-          },
-          "ocr_text": "16.00",
-          "is_header": false,
-          "confidence": 98.9860610961914
-      },
-      {
-          "id": "cell_23_7",
-          "row_id": "row_23",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "14.25",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_23_8",
-          "row_id": "row_23",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "74.81",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_24_1",
-          "row_id": "row_24",
-          "col_id": "col_1",
-          "vertices": {
-              "xmin": 246.98668241500854,
-              "xmax": 493.8282799720764,
-              "ymin": 2815.7945063710213,
-              "ymax": 2844.69132065773
-          },
-          "ocr_text": "721580K060C0",
-          "is_header": false,
-          "confidence": 96.9927749633789
-      },
-      {
-          "id": "cell_24_2",
-          "row_id": "row_24",
-          "col_id": "col_2",
-          "vertices": {
-              "xmin": 548.1141483783722,
-              "xmax": 905.1927804946899,
-              "ymin": 2815.76484054327,
-              "ymax": 2844.72453802824
-          },
-          "ocr_text": "COVER SEAT TRACK",
-          "is_header": false,
-          "confidence": 98.9599126180013
-      },
-      {
-          "id": "cell_24_3",
-          "row_id": "row_24",
-          "col_id": "col_3",
-          "vertices": {
-              "xmin": 1267.3375940322876,
-              "xmax": 1424.1318273544312,
-              "ymin": 2816.4724332094193,
-              "ymax": 2844.754830598831
-          },
-          "ocr_text": "87089900",
-          "is_header": false,
-          "confidence": 98.96773529052734
-      },
-      {
-          "id": "cell_24_4",
-          "row_id": "row_24",
-          "col_id": "col_4",
-          "vertices": {
-              "xmin": 1545.7459020614624,
-              "xmax": 1564.5566749572754,
-              "ymin": 2816.640400290489,
-              "ymax": 2844.190970957279
-          },
-          "ocr_text": "2",
-          "is_header": false,
-          "confidence": 98.94905090332031
-      },
-      {
-          "id": "cell_24_5",
-          "row_id": "row_24",
-          "col_id": "col_5",
-          "vertices": {
-              "xmin": 1729.2205238342285,
-              "xmax": 1833.5583400726318,
-              "ymin": 2816.1164432764053,
-              "ymax": 2844.8246079683304
-          },
-          "ocr_text": "110.50",
-          "is_header": false,
-          "confidence": 98.97262573242188
-      },
-      {
-          "id": "cell_24_6",
-          "row_id": "row_24",
-          "col_id": "col_6",
-          "vertices": {
-              "xmin": 1927.774362564087,
-              "xmax": 2014.2781972885132,
-              "ymin": 2816.322432756424,
-              "ymax": 2844.6121421456337
-          },
-          "ocr_text": "86.33",
-          "is_header": false,
-          "confidence": 98.92066955566406
-      },
-      {
-          "id": "cell_24_7",
-          "row_id": "row_24",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 2049.040174484253,
-              "xmax": 2134.875569343567,
-              "ymin": 2816.46929949522,
-              "ymax": 2844.342642724514
-          },
-          "ocr_text": "16.00",
-          "is_header": false,
-          "confidence": 98.98696899414062
-      },
-      {
-          "id": "cell_24_7",
-          "row_id": "row_24",
-          "col_id": "col_7",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "13.81",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_24_8",
-          "row_id": "row_24",
-          "col_id": "col_8",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "72.52",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_11_-1",
-          "row_id": "row_11",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "28",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_12_-1",
-          "row_id": "row_12",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "28",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_13_-1",
-          "row_id": "row_13",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "28",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_14_-1",
-          "row_id": "row_14",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "28",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_15_-1",
-          "row_id": "row_15",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "28",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_16_-1",
-          "row_id": "row_16",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "28",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_17_-1",
-          "row_id": "row_17",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "28",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_18_-1",
-          "row_id": "row_18",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "28",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_19_-1",
-          "row_id": "row_19",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "28",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_20_-1",
-          "row_id": "row_20",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "28",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_21_-1",
-          "row_id": "row_21",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "28",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_22_-1",
-          "row_id": "row_22",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "28",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_23_-1",
-          "row_id": "row_23",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "28",
-          "is_header": false,
-          "confidence": 100
-      },
-      {
-          "id": "cell_24_-1",
-          "row_id": "row_24",
-          "col_id": "col_-1",
-          "vertices": {
-              "xmin": 0,
-              "xmax": 0,
-              "ymin": 0,
-              "ymax": 0
-          },
-          "ocr_text": "28",
-          "is_header": false,
-          "confidence": 100
-      }
-  ],
-  "layout": {
-      "row_order": [
-          "row_1",
-          "row_10",
-          "row_11",
-          "row_12",
-          "row_13",
-          "row_14",
-          "row_15",
-          "row_16",
-          "row_17",
-          "row_18",
-          "row_19",
-          "row_2",
-          "row_20",
-          "row_21",
-          "row_22",
-          "row_23",
-          "row_24",
-          "row_3",
-          "row_4",
-          "row_5",
-          "row_6",
-          "row_7",
-          "row_8",
-          "row_9"
-      ],
-      "column_order": [
-          "col_-1",
-          "col_1",
-          "col_2",
-          "col_3",
-          "col_4",
-          "col_5",
-          "col_6",
-          "col_7",
-          "col_8"
-      ]
-  },
-  "headers": {
-      "col_1": "part_number",
-      "col_2": "description",
-      "col_3": "hsn_code",
-      "col_4": "quantity",
-      "col_5": "max_retail_price",
-      "col_6": "unit_price",
-      "col_7": "ext_discount_amt",
-      "col_8": "ext_per_unit_price",
-      "col_-1": "total_tax"
-  }
+    "type": "table",
+    "metadata": {
+        "id": "table_1",
+        "page_no": 0,
+        "vertices": {
+            "xmin": 0,
+            "xmax": 0,
+            "ymin": 0,
+            "ymax": 0
+        }
+    },
+    "cells": [
+        {
+            "id": "cell_1_1",
+            "row_id": "row_1",
+            "col_id": "col_1",
+            "vertices": {
+                "xmin": 659.1260835528374,
+                "xmax": 806.6692024469376,
+                "ymin": 1920.266854763031,
+                "ymax": 1945.7632899284363
+            },
+            "ocr_text": "87089900",
+            "is_header": false,
+            "confidence": 98.88738250732422
+        },
+        {
+            "id": "cell_1_2",
+            "row_id": "row_1",
+            "col_id": "col_2",
+            "vertices": {
+                "xmin": 1507.7767252922058,
+                "xmax": 1606.819474697113,
+                "ymin": 1921.1525738239288,
+                "ymax": 1984.5266282558441
+            },
+            "ocr_text": "1.00 156.60",
+            "is_header": false,
+            "confidence": 98.11563491821289
+        },
+        {
+            "id": "cell_1_3",
+            "row_id": "row_1",
+            "col_id": "col_3",
+            "vertices": {
+                "xmin": 1749.0616500377655,
+                "xmax": 1812.1563524007797,
+                "ymin": 1921.201354265213,
+                "ymax": 1984.0044021606445
+            },
+            "ocr_text": "0.00 0.00",
+            "is_header": false,
+            "confidence": 97.78592300415039
+        },
+        {
+            "id": "cell_1_4",
+            "row_id": "row_1",
+            "col_id": "col_4",
+            "vertices": {
+                "xmin": 1955.5401384830475,
+                "xmax": 2018.6656951904297,
+                "ymin": 1921.3307797908783,
+                "ymax": 1984.1918528079987
+            },
+            "ocr_text": "0.00 0.00",
+            "is_header": false,
+            "confidence": 96.06447982788086
+        },
+        {
+            "id": "cell_1_5",
+            "row_id": "row_1",
+            "col_id": "col_5",
+            "vertices": {
+                "xmin": 2167.439568042755,
+                "xmax": 2250.0448554754257,
+                "ymin": 1920.7025349140167,
+                "ymax": 1984.1570377349854
+            },
+            "ocr_text": "28.00 43.85",
+            "is_header": false,
+            "confidence": 97.69886016845703
+        },
+        {
+            "id": "cell_1_5",
+            "row_id": "row_1",
+            "col_id": "col_5",
+            "vertices": {
+                "xmin": 0,
+                "xmax": 0,
+                "ymin": 0,
+                "ymax": 0
+            },
+            "ocr_text": "None",
+            "is_header": false,
+            "confidence": 100
+        },
+        {
+            "id": "cell_1_6",
+            "row_id": "row_1",
+            "col_id": "col_6",
+            "vertices": {
+                "xmin": 0,
+                "xmax": 0,
+                "ymin": 0,
+                "ymax": 0
+            },
+            "ocr_text": "None",
+            "is_header": false,
+            "confidence": 100
+        },
+        {
+            "id": "cell_1_7",
+            "row_id": "row_1",
+            "col_id": "col_7",
+            "vertices": {
+                "xmin": 0,
+                "xmax": 0,
+                "ymin": 0,
+                "ymax": 0
+            },
+            "ocr_text": "1.00",
+            "is_header": false,
+            "confidence": 100
+        },
+        {
+            "id": "cell_1_8",
+            "row_id": "row_1",
+            "col_id": "col_8",
+            "vertices": {
+                "xmin": 0,
+                "xmax": 0,
+                "ymin": 0,
+                "ymax": 0
+            },
+            "ocr_text": "156.60",
+            "is_header": false,
+            "confidence": 100
+        },
+        {
+            "id": "cell_1_9",
+            "row_id": "row_1",
+            "col_id": "col_9",
+            "vertices": {
+                "xmin": 0,
+                "xmax": 0,
+                "ymin": 0,
+                "ymax": 0
+            },
+            "ocr_text": "28.00",
+            "is_header": false,
+            "confidence": 100
+        },
+        {
+            "id": "cell_2_1",
+            "row_id": "row_2",
+            "col_id": "col_1",
+            "vertices": {
+                "xmin": 659.0747863054276,
+                "xmax": 805.4481759667397,
+                "ymin": 2074.4220972061157,
+                "ymax": 2100.3331661224365
+            },
+            "ocr_text": "38200000",
+            "is_header": false,
+            "confidence": 98.87742614746094
+        },
+        {
+            "id": "cell_2_2",
+            "row_id": "row_2",
+            "col_id": "col_2",
+            "vertices": {
+                "xmin": 1508.0139845609665,
+                "xmax": 1606.8188667297363,
+                "ymin": 2075.0745356082916,
+                "ymax": 2138.644301891327
+            },
+            "ocr_text": "1.00 141.52",
+            "is_header": false,
+            "confidence": 98.30137252807617
+        },
+        {
+            "id": "cell_2_3",
+            "row_id": "row_2",
+            "col_id": "col_3",
+            "vertices": {
+                "xmin": 1749.4048476219177,
+                "xmax": 1812.592113018036,
+                "ymin": 2075.5043148994446,
+                "ymax": 2138.698786497116
+            },
+            "ocr_text": "0.00 0.00",
+            "is_header": false,
+            "confidence": 97.40437316894531
+        },
+        {
+            "id": "cell_2_4",
+            "row_id": "row_2",
+            "col_id": "col_4",
+            "vertices": {
+                "xmin": 1955.7922929525375,
+                "xmax": 2018.5669004917145,
+                "ymin": 2075.5328357219696,
+                "ymax": 2138.5557889938354
+            },
+            "ocr_text": "0.00 0.00",
+            "is_header": false,
+            "confidence": 96.90002059936523
+        },
+        {
+            "id": "cell_2_5",
+            "row_id": "row_2",
+            "col_id": "col_5",
+            "vertices": {
+                "xmin": 2167.3831790685654,
+                "xmax": 2249.774917960167,
+                "ymin": 2074.6960937976837,
+                "ymax": 2138.9796674251556
+            },
+            "ocr_text": "18.00 25.47",
+            "is_header": false,
+            "confidence": 96.08393859863281
+        },
+        {
+            "id": "cell_2_5",
+            "row_id": "row_2",
+            "col_id": "col_5",
+            "vertices": {
+                "xmin": 0,
+                "xmax": 0,
+                "ymin": 0,
+                "ymax": 0
+            },
+            "ocr_text": "None",
+            "is_header": false,
+            "confidence": 100
+        },
+        {
+            "id": "cell_2_6",
+            "row_id": "row_2",
+            "col_id": "col_6",
+            "vertices": {
+                "xmin": 0,
+                "xmax": 0,
+                "ymin": 0,
+                "ymax": 0
+            },
+            "ocr_text": "None",
+            "is_header": false,
+            "confidence": 100
+        },
+        {
+            "id": "cell_2_7",
+            "row_id": "row_2",
+            "col_id": "col_7",
+            "vertices": {
+                "xmin": 0,
+                "xmax": 0,
+                "ymin": 0,
+                "ymax": 0
+            },
+            "ocr_text": "1.00",
+            "is_header": false,
+            "confidence": 100
+        },
+        {
+            "id": "cell_2_8",
+            "row_id": "row_2",
+            "col_id": "col_8",
+            "vertices": {
+                "xmin": 0,
+                "xmax": 0,
+                "ymin": 0,
+                "ymax": 0
+            },
+            "ocr_text": "141.52",
+            "is_header": false,
+            "confidence": 100
+        },
+        {
+            "id": "cell_2_9",
+            "row_id": "row_2",
+            "col_id": "col_9",
+            "vertices": {
+                "xmin": 0,
+                "xmax": 0,
+                "ymin": 0,
+                "ymax": 0
+            },
+            "ocr_text": "18.00",
+            "is_header": false,
+            "confidence": 100
+        },
+        {
+            "id": "cell_3_1",
+            "row_id": "row_3",
+            "col_id": "col_1",
+            "vertices": {
+                "xmin": 659.1921240091324,
+                "xmax": 805.7406082749367,
+                "ymin": 2231.7069590091705,
+                "ymax": 2256.923496723175
+            },
+            "ocr_text": "38200000",
+            "is_header": false,
+            "confidence": 98.87001037597656
+        },
+        {
+            "id": "cell_3_2",
+            "row_id": "row_3",
+            "col_id": "col_2",
+            "vertices": {
+                "xmin": 1507.3877781629562,
+                "xmax": 1606.8574726581573,
+                "ymin": 2232.375919818878,
+                "ymax": 2295.230108499527
+            },
+            "ocr_text": "1.00 118.85",
+            "is_header": false,
+            "confidence": 97.51791763305664
+        },
+        {
+            "id": "cell_3_3",
+            "row_id": "row_3",
+            "col_id": "col_3",
+            "vertices": {
+                "xmin": 1749.060282111168,
+                "xmax": 1812.4410331249237,
+                "ymin": 2232.142049074173,
+                "ymax": 2295.0389206409454
+            },
+            "ocr_text": "0.00 0.00",
+            "is_header": false,
+            "confidence": 97.45146560668945
+        },
+        {
+            "id": "cell_3_4",
+            "row_id": "row_3",
+            "col_id": "col_4",
+            "vertices": {
+                "xmin": 1955.3902745246887,
+                "xmax": 2018.5662925243378,
+                "ymin": 2232.3159277439117,
+                "ymax": 2294.879400730133
+            },
+            "ocr_text": "0.00 0.00",
+            "is_header": false,
+            "confidence": 95.07769775390625
+        },
+        {
+            "id": "cell_3_5",
+            "row_id": "row_3",
+            "col_id": "col_5",
+            "vertices": {
+                "xmin": 2167.395034432411,
+                "xmax": 2250.001233816147,
+                "ymin": 2231.8414986133575,
+                "ymax": 2295.1620519161224
+            },
+            "ocr_text": "18.00 21.39",
+            "is_header": false,
+            "confidence": 95.72065353393555
+        },
+        {
+            "id": "cell_3_5",
+            "row_id": "row_3",
+            "col_id": "col_5",
+            "vertices": {
+                "xmin": 0,
+                "xmax": 0,
+                "ymin": 0,
+                "ymax": 0
+            },
+            "ocr_text": "None",
+            "is_header": false,
+            "confidence": 100
+        },
+        {
+            "id": "cell_3_6",
+            "row_id": "row_3",
+            "col_id": "col_6",
+            "vertices": {
+                "xmin": 0,
+                "xmax": 0,
+                "ymin": 0,
+                "ymax": 0
+            },
+            "ocr_text": "None",
+            "is_header": false,
+            "confidence": 100
+        },
+        {
+            "id": "cell_3_7",
+            "row_id": "row_3",
+            "col_id": "col_7",
+            "vertices": {
+                "xmin": 0,
+                "xmax": 0,
+                "ymin": 0,
+                "ymax": 0
+            },
+            "ocr_text": "1.00",
+            "is_header": false,
+            "confidence": 100
+        },
+        {
+            "id": "cell_3_8",
+            "row_id": "row_3",
+            "col_id": "col_8",
+            "vertices": {
+                "xmin": 0,
+                "xmax": 0,
+                "ymin": 0,
+                "ymax": 0
+            },
+            "ocr_text": "118.85",
+            "is_header": false,
+            "confidence": 100
+        },
+        {
+            "id": "cell_3_9",
+            "row_id": "row_3",
+            "col_id": "col_9",
+            "vertices": {
+                "xmin": 0,
+                "xmax": 0,
+                "ymin": 0,
+                "ymax": 0
+            },
+            "ocr_text": "18.00",
+            "is_header": false,
+            "confidence": 100
+        }
+    ],
+    "layout": {
+        "row_order": [
+            "row_1",
+            "row_2",
+            "row_3"
+        ],
+        "column_order": [
+            "col_1",
+            "col_2",
+            "col_3",
+            "col_4",
+            "col_5",
+            "col_6",
+            "col_7",
+            "col_8",
+            "col_9"
+        ]
+    },
+    "headers": {
+        "col_1": "hsn_code",
+        "col_2": "quantity_unit_price",
+        "col_3": "cgst_value",
+        "col_4": "sgst_value",
+        "col_5": "part_number",
+        "col_6": "ext_mrp",
+        "col_7": "quantity",
+        "col_8": "unit_price",
+        "col_9": "total_tax"
+    }
 }

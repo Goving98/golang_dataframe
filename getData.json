@@ -124,20 +124,6 @@
             "confidence": 100
         },
         {
-            "id": "cell_1_8",
-            "row_id": "row_1",
-            "col_id": "col_8",
-            "vertices": {
-                "xmin": 0,
-                "xmax": 0,
-                "ymin": 0,
-                "ymax": 0
-            },
-            "ocr_text": "156.60",
-            "is_header": false,
-            "confidence": 100
-        },
-        {
             "id": "cell_1_9",
             "row_id": "row_1",
             "col_id": "col_9",
@@ -343,7 +329,7 @@
                 "ymin": 2232.3159277439117,
                 "ymax": 2294.879400730133
             },
-            "ocr_text": "0.00 0.00",
+            "ocr_text": "2.00 0.00",
             "is_header": false,
             "confidence": 95.07769775390625
         },

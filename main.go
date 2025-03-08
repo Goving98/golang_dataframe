@@ -89,6 +89,6 @@ func main() {
     }
 
     df := dataframe.New(seriesList...)
-    fmt.Println("DataFrame:")
+    fmt.Println("DataFrame with Interface:")
     fmt.Println(df)
 }

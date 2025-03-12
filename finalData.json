@@ -1960,7 +1960,6 @@
         "row_9"
       ],
       "column_order": [
-        "col_-1",
         "col_1",
         "col_2",
         "col_3",
@@ -1979,7 +1978,6 @@
       "col_5": "max_retail_price",
       "col_6": "unit_price",
       "col_7": "ext_discount_amt",
-      "col_8": "ext_per_unit_price",
-      "col_-1": "total_tax"
+      "col_8": "ext_per_unit_price"
     }
   }

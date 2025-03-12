@@ -1,73 +1,66 @@
 import json
 
-# Load check.json (unwanted format)
-check_json_path = "original.json"
-with open(check_json_path, "r", encoding="utf-8") as file:
-    check_data = json.load(file)
-
-# Extract relevant table data from check.json
-table_data = check_data["table"]["data"][0]
-
-# Prepare the transformed JSON in the desired format
-transformed_json = {
-    "type": "table",
-    "metadata": {
-        "id": "table_1",
-        "page_no": table_data["page_no"],
-        "vertices": {
-            "xmin": table_data["xmin"],
-            "xmax": table_data["xmax"],
-            "ymin": table_data["ymin"],
-            "ymax": table_data["ymax"]
-        }
-    },
-    "cells": [],
-    "layout": {
-        "row_order": [],
-        "column_order": []
-    },
-    "headers": {}
-}
-
-
-row_order = set()
-column_order = set()
-
-for cell in table_data["cells"]:
-    row_id = f"row_{cell['row']}"
-    col_id = f"col_{cell['col']}"
+def transform_json(input_json):
+    table_data = input_json.get("table", {}).get("data", [])[0]
     
-    transformed_cell = {
-        "id": f"cell_{cell['row']}_{cell['col']}",
-        "row_id": row_id,
-        "col_id": col_id,
-        "vertices": {
-            "xmin": cell["xmin"],
-            "xmax": cell["xmax"],
-            "ymin": cell["ymin"],
-            "ymax": cell["ymax"]
+    transformed = {
+        "type": "table",
+        "metadata": {
+            "id": "table_1",
+            "page_no": table_data.get("page_no", 0),
+            "vertices": {
+                "xmin": table_data.get("xmin", 0),
+                "xmax": table_data.get("xmax", 0),
+                "ymin": table_data.get("ymin", 0),
+                "ymax": table_data.get("ymax", 0)
+            }
         },
-        "ocr_text": str(cell["text"]),  # Convert to string
-        "is_header": cell["label"] == "header",  # Define header logic
-        "confidence": cell["score"]
+        "cells": [],
+        "layout": {"row_order": [], "column_order": []},
+        "headers": {}
     }
+    
+    column_map = {}
+    row_ids = set()
+    
+    for cell in table_data.get("cells", []):
+        cell_id = cell["id"]
+        row_id = str(cell["row"])
+        col_id = str(cell["col"])
+        row_ids.add(row_id)
+        
+        if cell.get("label") and row_id == "1":
+            column_map[col_id] = cell["label"]
+        
+        transformed["cells"].append({
+            "id": cell_id,
+            "row_id": row_id,
+            "col_id": col_id,
+            "vertices": {
+                "xmin": cell["xmin"],
+                "xmax": cell["xmax"],
+                "ymin": cell["ymin"],
+                "ymax": cell["ymax"]
+            },
+            "ocr_text": cell.get("text", ""),
+            "is_header": row_id == "1",
+            "confidence": cell.get("score", 0.0)
+        })
+    
+    transformed["layout"]["row_order"] = sorted(row_ids, key=int)
+    transformed["layout"]["column_order"] = sorted(column_map.keys(), key=int)
+    transformed["headers"] = {f"col_{col}": label for col, label in column_map.items()}
+    
+    return transformed
 
-    transformed_json["cells"].append(transformed_cell)
-    row_order.add(row_id)
-    column_order.add(col_id)
-
-    # Map headers based on the first row of data
-    if cell["row"] == 1:
-        transformed_json["headers"][col_id] = cell["label"]
-
-# Sort and update row/column order
-transformed_json["layout"]["row_order"] = sorted(row_order)
-transformed_json["layout"]["column_order"] = sorted(column_order)
-
-# Save the transformed JSON to a file
-output_json_path = "getData.json"
-with open(output_json_path, "w", encoding="utf-8") as file:
-    json.dump(transformed_json, file, indent=4)
-
-# Return the path of the transformed JSON
-output_json_path
+# Example usage
+if __name__ == "__main__":
+    with open("getData.json", "r") as file:
+        input_data = json.load(file)
+    
+    output_data = transform_json(input_data)
+    
+    with open("finalData.json", "w") as file:
+        json.dump(output_data, file, indent=2)
+    
+    print("Transformation complete. Output saved to output.json")
